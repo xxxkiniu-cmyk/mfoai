@@ -10,9 +10,9 @@ headers = {
 }
 
 MODELE = [
-    "openrouter/auto",
-    "google/gemini-2.0-flash-lite-001:free",
-    "meta-llama/llama-3.3-70b-instruct:free"
+    "google/gemini-2.0-flash-lite-001",
+    "meta-llama/llama-3.3-70b-instruct",
+    "qwen/qwen-2.5-coder-32b-instruct"
 ]
 
 pytanie = "Cześć! Podaj krótką, energiczną myśl na dzisiejszy dzień oraz jedną ciekawostkę techniczną. Całość max w 3-4 zdaniach, po polsku."
