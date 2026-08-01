@@ -3,23 +3,27 @@ import os
 
 key = os.environ.get("OPENROUTER_KEY")
 
-# Lista darmowych modeli do przetestowania kolejno
+headers = {
+    "Authorization": f"Bearer {key}",
+    "HTTP-Referer": "https://github.com/mfoai",
+    "X-OpenRouter-Title": "MFO.ai Command Center"
+}
+
 MODELE = [
+    "openrouter/auto",
     "google/gemini-2.0-flash-lite-001:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "deepseek/deepseek-r1:free"
+    "meta-llama/llama-3.3-70b-instruct:free"
 ]
 
 pytanie = "Cześć! Podaj krótką, energiczną myśl na dzisiejszy dzień oraz jedną ciekawostkę techniczną. Całość max w 3-4 zdaniach, po polsku."
 
 odpowiedz = None
 
-# Automatyczne przełączanie modeli (Fallback)
 for model in MODELE:
     try:
         r = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}"},
+            headers=headers,
             json={
                 "model": model,
                 "messages": [{"role": "user", "content": pytanie}]
@@ -31,6 +35,8 @@ for model in MODELE:
             odpowiedz = data["choices"][0]["message"]["content"]
             print(f"Sukces z modelem: {model}")
             break
+        else:
+            print(f"Odrzucono przez {model}: {data}")
     except Exception as e:
         print(f"Błąd z modelem {model}: {e}")
 
