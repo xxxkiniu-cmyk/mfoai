@@ -2,7 +2,10 @@ import requests
 import os
 import time
 
-key = open(os.path.expanduser('~/.env')).read().strip().split('=')[1]
+key = os.environ.get('OPENROUTER_API_KEY', '')
+if not key:
+    print("BLAD: Brak klucza API")
+    exit(1)
 
 pytanie = "Podaj krotka motywacyjna wiadomosc na dzisiaj po polsku. Max 2 zdania."
 
@@ -10,8 +13,7 @@ modele = [
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
-    "openai/gpt-oss-20b:free",
-    "cohere/north-mini-code:free"
+    "openai/gpt-oss-20b:free"
 ]
 
 odpowiedz = None
