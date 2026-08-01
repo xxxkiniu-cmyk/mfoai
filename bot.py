@@ -8,7 +8,7 @@ if not key:
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] CRITICAL: Brak klucza OPENROUTER_API_KEY")
     exit(1)
 
-pytanie = "Podaj krotka motywacyjna wiadomosc na dzis iaj po polsku. Max 2 zdania."
+pytanie = "Podaj krotka motywacyjna wiadomosc na dzisiaj po polsku. Max 2 zdania."
 
 modele = [
     "google/gemma-4-26b-a4b-it:free",
@@ -51,19 +51,31 @@ for model in modele:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas polaczenia z {model}: {e}")
         continue
 
-if not odpowiedz:
-    odpowiedz = "AWARIA: Wszystkie modele AI niedostepne."
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] CRITICAL: {odpowiedz}")
+# Przygotowanie powiadomienia ntfy
+if odpowiedz:
+    ntfy_title = f"MFO.ai | {uzyty_model}"
+    ntfy_message = f"{odpowiedz}\n\n⏱ Czas odpowiedzi: {czas_trwania}s"
+    ntfy_tags = "robot,rocket"
+    ntfy_priority = "3"  # domyślny
+else:
+    ntfy_title = "MFO.ai | AWARIA"
+    ntfy_message = "Krytyczny błąd: Wszystkie modele AI z listy fallback są niedostępne."
+    ntfy_tags = "warning,rotating_light"
+    ntfy_priority = "4"  # wysoki priorytet
 
 try:
     requests.post(
         'https://ntfy.sh/centrum-dowodzenia-v3',
-        data=odpowiedz.encode('utf-8'),
-        headers={'Title': f'MFO.ai | {uzyty_model or "AWARIA"}'},
+        data=ntfy_message.encode('utf-8'),
+        headers={
+            'Title': ntfy_title,
+            'Tags': ntfy_tags,
+            'Priority': ntfy_priority
+        },
         timeout=15
     )
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] INFO: Powiadomienie ntfy wyslane pomyślnie.")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] INFO: Powiadomienie ntfy wyslane pomyslnie.")
 except Exception as e:
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas wysylania ntfy: {e}")
 
-print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] FINISH: Wynik -> {odpowiedz}")
+print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] FINISH: Wynik -> {odpowiedz or ntfy_message}")
