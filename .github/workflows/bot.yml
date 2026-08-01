@@ -16,4 +16,4 @@ jobs:
       - run: pip install requests
       - run: python bot.py
         env:
-          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
