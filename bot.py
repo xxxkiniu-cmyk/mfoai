@@ -3,28 +3,44 @@ import os
 
 key = os.environ.get("OPENROUTER_KEY")
 
-pytanie = "Podaj krotka motywacyjna wiadomosc na dzisiaj po polsku. Max 2 zdania."
+# Lista darmowych modeli do przetestowania kolejno
+MODELE = [
+    "google/gemini-2.0-flash-lite-001:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "deepseek/deepseek-r1:free"
+]
 
-r = requests.post(
-    "https://openrouter.ai/api/v1/chat/completions",
-    headers={"Authorization": f"Bearer {key}"},
-    json={
-        "model": "openai/gpt-3.5-turbo",
-        "messages": [{"role": "user", "content": pytanie}]
-    }
-)
+pytanie = "Cześć! Podaj krótką, energiczną myśl na dzisiejszy dzień oraz jedną ciekawostkę techniczną. Całość max w 3-4 zdaniach, po polsku."
 
-data = r.json()
+odpowiedz = None
 
-if "choices" in data:
-    odpowiedz = data["choices"][0]["message"]["content"]
-else:
-    odpowiedz = "Blad AI: " + str(data)
+# Automatyczne przełączanie modeli (Fallback)
+for model in MODELE:
+    try:
+        r = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}"},
+            json={
+                "model": model,
+                "messages": [{"role": "user", "content": pytanie}]
+            },
+            timeout=15
+        )
+        data = r.json()
+        if "choices" in data and len(data["choices"]) > 0:
+            odpowiedz = data["choices"][0]["message"]["content"]
+            print(f"Sukces z modelem: {model}")
+            break
+    except Exception as e:
+        print(f"Błąd z modelem {model}: {e}")
+
+if not odpowiedz:
+    odpowiedz = "Krytyczny błąd: Wszystkie darmowe modele AI zawiodły!"
 
 requests.post(
     "https://ntfy.sh/centrum-dowodzenia-v3",
     data=odpowiedz.encode("utf-8"),
-    headers={"Title": "MFO.ai Bot"}
+    headers={"Title": "MFO.ai Poranny Raport"}
 )
 
-print("Wyslano:", odpowiedz)
+print("Wysłano powiadomienie ntfy.")
