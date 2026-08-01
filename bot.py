@@ -1,4 +1,5 @@
-import requests
+key = open(os.path.expanduser('~/.env')).read().strip().split('=')[1]
+key = os.environ.get('OPENROUTER_KEY') or open(os.path.expanduser('~/.env')).read().strip().split('=')[1]key = os.environ.get('OPENROUTER_KEY') or open(os.path.expanduser('~/.env')).read().strip().split('=')[1]import requests
 import os
 
 # Wczytaj klucz API
