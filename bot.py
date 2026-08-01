@@ -9,7 +9,6 @@ headers = {
     "X-OpenRouter-Title": "MFO.ai Command Center"
 }
 
-# Pobieranie danych pogodowych
 def pobierz_pogode(lat, lon):
     url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,wind_speed_10m_max&timezone=Europe%2FWarsaw"
     try:
@@ -68,7 +67,7 @@ if not odpowiedz:
 requests.post(
     "https://ntfy.sh/centrum-dowodzenia-v3",
     data=odpowiedz.encode("utf-8"),
-    headers={"Title": "Poranna Pogoda: Międzyzdroje / Stargard"}
+    headers={"Title": "Poranna Pogoda: Miedzyzdroje / Stargard"}
 )
 
 print("Wysłano powiadomienie ntfy.")
