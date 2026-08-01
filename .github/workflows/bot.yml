@@ -1,9 +1,9 @@
 name: MFO.ai Bot
 
 on:
-  schedule:
-    - cron: '0 7 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
 
 jobs:
   run-bot:
