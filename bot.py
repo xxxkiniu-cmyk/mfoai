@@ -1,13 +1,14 @@
-import requests
 import os
 import time
+import requests
+from datetime import datetime
 
 key = os.environ.get('OPENROUTER_API_KEY', '')
 if not key:
-    print("BLAD: Brak klucza API")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] CRITICAL: Brak klucza OPENROUTER_API_KEY")
     exit(1)
 
-pytanie = "Podaj krotka motywacyjna wiadomosc na dzisiaj po polsku. Max 2 zdania."
+pytanie = "Podaj krotka motywacyjna wiadomosc na dzis iaj po polsku. Max 2 zdania."
 
 modele = [
     "google/gemma-4-26b-a4b-it:free",
@@ -18,11 +19,15 @@ modele = [
 
 odpowiedz = None
 uzyty_model = None
+czas_trwania = 0
+
+print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] START: Rozpoczynam odpytywanie modeli...")
 
 for model in modele:
     try:
-        print(f"Probuje model: {model}")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] INFO: Probuje model: {model}")
         start = time.time()
+        
         r = requests.post(
             'https://openrouter.ai/api/v1/chat/completions',
             headers={'Authorization': f'Bearer {key}'},
@@ -32,21 +37,23 @@ for model in modele:
             },
             timeout=30
         )
+        
         data = r.json()
-        if 'choices' in data:
-            odpowiedz = data['choices'][0]['message']['content']
+        if 'choices' in data and len(data['choices']) > 0:
+            odpowiedz = data['choices'][0]['message']['content'].strip()
             uzyty_model = model
-            czas = round(time.time() - start, 1)
-            print(f"OK. Model: {model}. Czas: {czas}s")
+            czas_trwania = round(time.time() - start, 2)
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] SUCCESS: Model {model} odpowiedzial w {czas_trwania}s.")
             break
         else:
-            print(f"Blad: {data}")
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] WARNING: Model {model} zwrocil bledna strukture: {data}")
     except Exception as e:
-        print(f"Blad: {e}")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas polaczenia z {model}: {e}")
         continue
 
 if not odpowiedz:
     odpowiedz = "AWARIA: Wszystkie modele AI niedostepne."
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] CRITICAL: {odpowiedz}")
 
 try:
     requests.post(
@@ -55,7 +62,8 @@ try:
         headers={'Title': f'MFO.ai | {uzyty_model or "AWARIA"}'},
         timeout=15
     )
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] INFO: Powiadomienie ntfy wyslane pomyślnie.")
 except Exception as e:
-    print(f"Blad ntfy: {e}")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas wysylania ntfy: {e}")
 
-print("Wyslano:", odpowiedz)
+print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] FINISH: Wynik -> {odpowiedz}")
