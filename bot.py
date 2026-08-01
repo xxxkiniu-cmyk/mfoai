@@ -1,5 +1,6 @@
 import os
 import time
+import json
 import requests
 from datetime import datetime
 
@@ -20,6 +21,7 @@ modele = [
 odpowiedz = None
 uzyty_model = None
 czas_trwania = 0
+status_ok = False
 
 print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] START: Rozpoczynam odpytywanie modeli...")
 
@@ -43,6 +45,7 @@ for model in modele:
             odpowiedz = data['choices'][0]['message']['content'].strip()
             uzyty_model = model
             czas_trwania = round(time.time() - start, 2)
+            status_ok = True
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] SUCCESS: Model {model} odpowiedzial w {czas_trwania}s.")
             break
         else:
@@ -51,17 +54,45 @@ for model in modele:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas polaczenia z {model}: {e}")
         continue
 
-# Przygotowanie powiadomienia ntfy
-if odpowiedz:
+# Zapis do pliku reports.json (Automatyczny Raport)
+raport_data = {
+    "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+    "status": "SUCCESS" if status_ok else "FAILED",
+    "model": uzyty_model or "NONE",
+    "latency_sec": czas_trwania,
+    "response": odpowiedz or "AWARIA"
+}
+
+reports_file = "reports.json"
+reports_list = []
+
+if os.path.exists(reports_file):
+    try:
+        with open(reports_file, 'r', encoding='utf-8') as f:
+            reports_list = json.load(f)
+    except Exception:
+        reports_list = []
+
+reports_list.append(raport_data)
+
+try:
+    with open(reports_file, 'w', encoding='utf-8') as f:
+        json.dump(reports_list, f, ensure_ascii=False, indent=2)
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] INFO: Raport zostal zapisany w {reports_file}.")
+except Exception as e:
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Nie udalo sie zapisac raportu: {e}")
+
+# Wysyłanie powiadomienia ntfy
+if status_ok:
     ntfy_title = f"MFO.ai | {uzyty_model}"
     ntfy_message = f"{odpowiedz}\n\n⏱ Czas odpowiedzi: {czas_trwania}s"
     ntfy_tags = "robot,rocket"
-    ntfy_priority = "3"  # domyślny
+    ntfy_priority = "3"
 else:
     ntfy_title = "MFO.ai | AWARIA"
     ntfy_message = "Krytyczny błąd: Wszystkie modele AI z listy fallback są niedostępne."
     ntfy_tags = "warning,rotating_light"
-    ntfy_priority = "4"  # wysoki priorytet
+    ntfy_priority = "4"
 
 try:
     requests.post(
@@ -78,4 +109,4 @@ try:
 except Exception as e:
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ERROR: Blad podczas wysylania ntfy: {e}")
 
-print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] FINISH: Wynik -> {odpowiedz or ntfy_message}")
+print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] FINISH: Zakonczono cykl.")
