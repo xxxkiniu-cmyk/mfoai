@@ -45,5 +45,24 @@
         "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-02 01:58:59",
+    "agents": {
+      "motivator": {
+        "status": "FAILED",
+        "model": null,
+        "latency": null,
+        "response": "Wszystkie modele OpenRouter zawiodły"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.2°C (odczuwalna: 15.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
   }
 ]
