@@ -11,5 +11,20 @@
         "data": "Temp: 15.1°C (odczuwalna: 15.0°C) | Opady: 0.0 mm"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-02 01:38:09",
+    "agents": {
+      "motivator": {
+        "status": "FAILED",
+        "model": null,
+        "latency": null,
+        "response": "Wszystkie modele zawiodły"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.1°C (odczuwalna: 15.0°C) | Opady: 0.0 mm"
+      }
+    }
   }
 ]
