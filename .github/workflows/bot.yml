@@ -16,4 +16,4 @@ jobs:
       - run: pip install requests ntfy
       - run: python main.py
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_KEY }}
