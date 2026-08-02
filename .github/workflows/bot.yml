@@ -1,12 +1,13 @@
-name: MFO.ai Bot
+name: MFO.ai Command Center Daily Run
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5 * * *'
+    # Uruchomienie codziennie o 04:00 UTC (06:00 czasu polskiego)
+    - cron: '0 4 * * *'
 
 jobs:
-  run-bot:
+  run-command-center:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,5 +25,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add reports.json
-          git commit -m "Chore: auto-update reports.json [skip ci]" || exit 0
+          git commit -m "Chore: daily report update [skip ci]" || exit 0
           git push
