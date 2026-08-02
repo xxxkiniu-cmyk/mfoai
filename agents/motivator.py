@@ -11,29 +11,30 @@ def get_motivation():
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "HTTP-Referer": "https://github.com/xxxkiniu-cmyk/mfoai",
         "X-Title": "MFO.ai Command Center"
     }
     
-    # Aktualna lista niezawodnych modeli darmowych w OpenRouter
+    # Niezawodne i całkowicie darmowe modele w OpenRouter
     models = [
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "google/gemma-2-9b-it:free",
+        "stepfun/step-1-8b-instruct:free",
         "qwen/qwen-2.5-72b-instruct:free",
-        "mistralai/mistral-7b-instruct:free"
+        "google/gemma-2-9b-it:free",
+        "meta-llama/llama-3.3-70b-instruct:free"
     ]
     
-    prompt = "Napisz jedno krótkie, zwięzłe i mocne hasło motywacyjne na dziś po polsku. Zwróć wyłącznie treść cytatu, bez komentarzy ani cudzysłowów."
+    prompt = "Napisz jedno krótkie, zwięzłe i mocne hasło motywacyjne na dziś po polsku. Zwróć wyłącznie treść cytatu."
 
     start_time = time.time()
     for model in models:
         payload = {
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 100
+            "max_tokens": 80
         }
         try:
-            res = requests.post(url, json=payload, headers=headers, timeout=15)
+            res = requests.post(url, json=payload, headers=headers, timeout=12)
             if res.status_code == 200:
                 data = res.json()
                 msg = data['choices'][0]['message']['content'].strip()
@@ -58,7 +59,7 @@ def send_notification(message):
             headers={
                 "Title": "MFO.ai - Motivator",
                 "Priority": "default",
-                "Tags": "muscle,fire"
+                "Tags": "fire,muscle"
             }
         )
     except Exception as e:
