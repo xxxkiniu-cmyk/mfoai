@@ -83,5 +83,24 @@
         "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-02 10:17:30",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Małe postępy każdego dnia sumują się w wielki sukces."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 21.6°C (odczuwalna: 20.8°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
   }
 ]
