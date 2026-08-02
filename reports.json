@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-08-02 01:33:38",
+    "agents": {
+      "motivator": {
+        "status": "ERROR",
+        "error": "module 'agents.motivator' has no attribute 'run'"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.1°C (odczuwalna: 15.0°C) | Opady: 0.0 mm"
+      }
+    }
+  }
+]
