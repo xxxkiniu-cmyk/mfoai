@@ -121,5 +121,24 @@
         "data": "EUR: 4.3013 PLN, USD: 3.7330 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-03 18:29:36",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Skup się na procesie, a wyniki przyjdą same."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 22.3°C (odczuwalna: 21.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3013 PLN, USD: 3.7330 PLN"
+      }
+    }
   }
 ]
