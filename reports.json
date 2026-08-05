@@ -1,0 +1,201 @@
+[
+  {
+    "timestamp": "2026-08-02 01:33:38",
+    "agents": {
+      "motivator": {
+        "status": "ERROR",
+        "error": "module 'agents.motivator' has no attribute 'run'"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.1°C (odczuwalna: 15.0°C) | Opady: 0.0 mm"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-02 01:38:09",
+    "agents": {
+      "motivator": {
+        "status": "FAILED",
+        "model": null,
+        "latency": null,
+        "response": "Wszystkie modele zawiodły"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.1°C (odczuwalna: 15.0°C) | Opady: 0.0 mm"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-02 01:54:17",
+    "agents": {
+      "motivator": {
+        "status": "FAILED",
+        "model": null,
+        "latency": null,
+        "response": "Wszystkie modele OpenRouter zawiodły"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.2°C (odczuwalna: 15.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-02 01:58:59",
+    "agents": {
+      "motivator": {
+        "status": "FAILED",
+        "model": null,
+        "latency": null,
+        "response": "Wszystkie modele OpenRouter zawiodły"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.2°C (odczuwalna: 15.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-02 02:04:46",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Dyscyplina to most między celami a ich osiągnięciem."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.2°C (odczuwalna: 15.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-02 10:17:30",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Małe postępy każdego dnia sumują się w wielki sukces."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 21.6°C (odczuwalna: 20.8°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3128 PLN, USD: 3.7425 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-03 13:48:34",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 27.0°C (odczuwalna: 27.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3013 PLN, USD: 3.7330 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-03 18:29:36",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Skup się na procesie, a wyniki przyjdą same."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 22.3°C (odczuwalna: 21.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3013 PLN, USD: 3.7330 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-04 11:49:35",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Skup się na procesie, a wyniki przyjdą same."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 24.3°C (odczuwalna: 26.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3118 PLN, USD: 3.7468 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-05 23:40:26",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Skup się na procesie, a wyniki przyjdą same."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 21.5°C (odczuwalna: 24.5°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3050 PLN, USD: 3.7320 PLN"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-05 23:42:34",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Małe postępy każdego dnia sumują się w wielki sukces."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 21.5°C (odczuwalna: 24.5°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3050 PLN, USD: 3.7320 PLN"
+      }
+    }
+  }
+]
