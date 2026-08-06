@@ -1,0 +1,9 @@
+{
+  "contract_version": "2.4",
+  "command": "EXECUTE_AGENT_TASK",
+  "target_agent": "motivator",
+  "payload": {
+    "prompt": "Wygeneruj status systemu MFO.ai",
+    "temperature": 0.7
+  }
+}

@@ -3,6 +3,16 @@ import urllib.error
 import json
 from core.config import OPENROUTER_API_KEY, DEFAULT_MODEL, FALLBACK_MODEL
 
+def ask(prompt):
+    try:
+        return _make_request(DEFAULT_MODEL, prompt)
+    except Exception as e:
+        print(f"[WARNING] {e}")
+        try:
+            return _make_request(FALLBACK_MODEL, prompt)
+        except Exception as e2:
+            return f"[ERROR] {e2}"
+
 def _make_request(model, prompt):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
@@ -17,13 +27,3 @@ def _make_request(model, prompt):
     with urllib.request.urlopen(req, timeout=15) as response:
         result = json.loads(response.read().decode("utf-8"))
         return result["choices"][0]["message"]["content"]
-
-def ask(prompt):
-    try:
-        return _make_request(DEFAULT_MODEL, prompt)
-    except Exception as e:
-        print(f"[WARNING] {e}")
-        try:
-            return _make_request(FALLBACK_MODEL, prompt)
-        except Exception as e2:
-            return f"[ERROR] {e2}"
