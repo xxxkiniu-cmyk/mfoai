@@ -25,3 +25,6 @@ def set(key: str, value):
     data[key] = value
     with open(CONFIG_FILE, "w") as f:
         json.dump(data, f, indent=2)
+
+import os
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
