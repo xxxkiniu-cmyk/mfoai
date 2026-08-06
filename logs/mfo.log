@@ -1,2 +1,4 @@
 2026-08-06 06:46:35,131 - motivator - INFO - [FALLBACK] (cost: 0.1) WARNING {'error': 'LLM offline or returned error'}
 2026-08-06 10:08:21,310 - motivator - INFO - [FALLBACK] (cost: 0.1) WARNING {'error': 'LLM offline or returned error'}
+2026-08-06 10:17:31,342 - weather - INFO - [FALLBACK] (cost: 0.1) WARNING {'error': 'LLM offline'}
+2026-08-06 10:29:50,347 - finance - INFO - [FALLBACK] (cost: 0.1) WARNING {'error': 'LLM offline'}

@@ -7,7 +7,7 @@ from core.config import CITY
 
 def get_weather_data():
     try:
-        url = f"https://wttr.in/{CITY}?format=j1"
+        url = "https://wttr.in/" + CITY + "?format=j1"
         req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0"})
         with urllib.request.urlopen(req, timeout=5) as response:
             if response.status == 200:
@@ -15,27 +15,24 @@ def get_weather_data():
                 current = data["current_condition"][0]
                 temp = current["temp_C"]
                 desc = current["weatherDesc"][0]["value"]
-                return f"Miasto: {CITY}, Temperatura: {temp}C, Stan: {desc}"
+                return "Miasto: " + CITY + ", Temperatura: " + temp + "C, Stan: " + desc
     except Exception as e:
         Logger.log("weather", "API", 0.1, "WARNING", error=str(e))
-    return f"Miasto: {CITY}, Dane pogodowe niedostepne."
+    return "Miasto: " + CITY + ", Dane pogodowe niedostepne."
 
 def run_weather():
     weather_info = get_weather_data()
-    prompt = f"Na podstawie danych o pogodzie stwórz krotkie porady:
-{weather_info}"
+    prompt = "Na podstawie danych o pogodzie stworz krotkie porady: " + weather_info
     try:
         advice = ask(prompt)
         if not advice or "[ERROR]" in advice:
             raise Exception("LLM offline")
         Logger.log("weather", "LLM", 0.5, "SUCCESS")
     except Exception as e:
-        advice = f"Pamietaj o dostosowaniu ubioru do pogody!"
+        advice = "Pamietaj o dostosowaniu ubioru do pogody!"
         Logger.log("weather", "FALLBACK", 0.1, "WARNING", error=str(e))
-    message = f"{weather_info}
-
-Porada: {advice}"
-    send(f"Pogoda: {CITY}", message, priority="default")
+    message = weather_info + "\n\nPorada: " + advice
+    send("Pogoda: " + CITY, message, priority="default")
     return message
 
 if __name__ == "__main__":
