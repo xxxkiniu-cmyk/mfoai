@@ -1,45 +1,43 @@
-import requests
-import os
+import urllib.request
+import json
+from core.llm_client import ask
+from core.notifier import send
+from core.logger import Logger
 
-def fetch_rates():
-    url = "https://api.nbp.pl/api/exchangerates/tables/A/?format=json"
+def get_exchange_rates():
     try:
-        res = requests.get(url, timeout=10)
-        if res.status_code == 200:
-            rates_data = res.json()[0]['rates']
-            eur = next((r['mid'] for r in rates_data if r['code'] == 'EUR'), None)
-            usd = next((r['mid'] for r in rates_data if r['code'] == 'USD'), None)
-            
-            return {
-                "ok": True,
-                "EUR": f"{eur:.4f} PLN" if eur else "N/A",
-                "USD": f"{usd:.4f} PLN" if usd else "N/A"
-            }
-        return {"ok": False, "error": f"HTTP {res.status_code}"}
+        url = "https://api.nbp.pl/api/exchangerates/tables/A/?format=json"
+        req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0"})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            if response.status == 200:
+                data = json.loads(response.read().decode("utf-8"))
+                rates = data[0]["rates"]
+                target = ["USD", "EUR", "GBP"]
+                filtered = [f"{r['code']}: {r['mid']} PLN" for r in rates if r['code'] in target]
+                return "Kursy NBP:
+" + "
+".join(filtered)
     except Exception as e:
-        return {"ok": False, "error": str(e)}
+        Logger.log("finance", "API", 0.1, "WARNING", error=str(e))
+    return "Kursy walut niedostepne."
 
-def send_notification(finance_info):
-    topic = os.getenv("NTFY_TOPIC", "mfoai_bot_alerts")
-    text = f"💶 EUR: {finance_info.get('EUR')}\n💵 USD: {finance_info.get('USD')}"
+def run_finance():
+    rates_info = get_exchange_rates()
+    prompt = f"Krotkie podsumowanie kursow walut:
+{rates_info}"
     try:
-        requests.post(
-            f"https://ntfy.sh/{topic}",
-            data=f"📊 Kursy walut (NBP):\n{text}".encode("utf-8"),
-            headers={
-                "Title": "MFO.ai - Finance",
-                "Priority": "low",
-                "Tags": "chart_with_upwards_trend,moneybag"
-            }
-        )
+        commentary = ask(prompt)
+        if not commentary or "[ERROR]" in commentary:
+            raise Exception("LLM offline")
+        Logger.log("finance", "LLM", 0.5, "SUCCESS")
     except Exception as e:
-        print(f"Błąd wysyłania ntfy: {e}")
+        commentary = "Brak komentarza AI. Monitoruj rynki walutowe."
+        Logger.log("finance", "FALLBACK", 0.1, "WARNING", error=str(e))
+    message = f"{rates_info}
 
-def run():
-    info = fetch_rates()
-    if info.get("ok"):
-        send_notification(info)
-    return info
+Komentarz: {commentary}"
+    send("Finanse: Kursy Walut", message, priority="default")
+    return message
 
 if __name__ == "__main__":
-    print(run())
+    print(run_finance())
