@@ -1,61 +1,27 @@
-import os
-import requests
+import urllib.request
+import urllib.error
+from core.config import NTFY_TOPIC
 
-def notify(message: str, title: str = "MFO.ai"):
-    topic = os.getenv("NTFY_TOPIC", "")
-    token = os.getenv("TELEGRAM_TOKEN", "")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+def send(title: str, message: str, priority: str = "default", correlation_id: str = "corr-notifier-default") -> bool:
+    url = f"https://ntfy.sh/{NTFY_TOPIC}"
     
-    if topic:
-        try:
-            requests.post(
-                f"https://ntfy.sh/{topic}",
-                data=message.encode("utf-8"),
-                headers={"Title": title},
-                timeout=10
-            )
-            print(f"[NTFY] {title}: {message}")
-        except Exception as e:
-            print(f"[NTFY] Błąd: {e}")
+    headers = {
+        "Title": title.encode("utf-8") if isinstance(title, str) else title,
+        "Priority": priority
+    }
     
-    if token and chat_id:
-        try:
-            requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={"chat_id": chat_id, "text": f"{title}: {message}"},
-                timeout=10
-            )
-            print(f"[TG] {title}: {message}")
-        except Exception as e:
-            print(
-cat > ~/.mfo/core/notifier.py << 'EOF'
-import os
-import requests
-
-def notify(message: str, title: str = "MFO.ai"):
-    topic = os.getenv("NTFY_TOPIC", "")
-    token = os.getenv("TELEGRAM_TOKEN", "")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+    data = message.encode("utf-8") if isinstance(message, str) else message
     
-    if topic:
-        try:
-            requests.post(
-                f"https://ntfy.sh/{topic}",
-                data=message.encode("utf-8"),
-                headers={"Title": title},
-                timeout=10
-            )
-            print(f"[NTFY] {title}: {message}")
-        except Exception as e:
-            print(f"[NTFY] Błąd: {e}")
+    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
     
-    if token and chat_id:
-        try:
-            requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={"chat_id": chat_id, "text": f"{title}: {message}"},
-                timeout=10
-            )
-            print(f"[TG] {title}: {message}")
-        except Exception as e:
-            print(f"[TG] Błąd: {e}")
+    try:
+        with urllib.request.urlopen(req, timeout=5) as response:
+            if response.status == 200:
+                print(f"[INFO] NTFY_SUCCESS: Wysłano: {title}")
+                return True
+    except urllib.error.URLError as e:
+        print(f"[ERROR] NTFY_ERROR: {e.reason}")
+    except Exception as e:
+        print(f"[ERROR] NTFY_ERROR: {str(e)}")
+        
+    return False
