@@ -1,34 +1,42 @@
-import os
-import requests
+import urllib.request
+import json
+from core.llm_client import ask
+from core.notifier import send
+from core.logger import Logger
+from core.config import CITY
 
-def fetch_weather():
-    url = "https://api.open-meteo.com/v1/forecast?latitude=53.84&longitude=14.62&current=temperature_2m,apparent_temperature,precipitation,weather_code&timezone=auto"
+def get_weather_data():
     try:
-        res = requests.get(url, timeout=10)
-        data = res.json()
-        curr = data.get("current", {})
-        temp = curr.get("temperature_2m")
-        feels_like = curr.get("apparent_temperature")
-        precip = curr.get("precipitation")
-        return f"Temp: {temp}°C (odczuwalna: {feels_like}°C) | Opady: {precip} mm"
+        url = f"https://wttr.in/{CITY}?format=j1"
+        req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0"})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            if response.status == 200:
+                data = json.loads(response.read().decode("utf-8"))
+                current = data["current_condition"][0]
+                temp = current["temp_C"]
+                desc = current["weatherDesc"][0]["value"]
+                return f"Miasto: {CITY}, Temperatura: {temp}C, Stan: {desc}"
     except Exception as e:
-        return f"Błąd pobierania pogody: {e}"
+        Logger.log("weather", "API", 0.1, "WARNING", error=str(e))
+    return f"Miasto: {CITY}, Dane pogodowe niedostepne."
 
-def send_notification(message):
-    topic = os.getenv("NTFY_TOPIC", "mfoai_bot_alerts")
+def run_weather():
+    weather_info = get_weather_data()
+    prompt = f"Na podstawie danych o pogodzie stwórz krotkie porady:
+{weather_info}"
     try:
-        requests.post(
-            f"https://ntfy.sh/{topic}",
-            data=f"🌤️ Prognoza Pogody:\n{message}".encode("utf-8"),
-            headers={
-                "Title": "MFO.ai - Weather Agent",
-                "Priority": "default"
-            }
-        )
+        advice = ask(prompt)
+        if not advice or "[ERROR]" in advice:
+            raise Exception("LLM offline")
+        Logger.log("weather", "LLM", 0.5, "SUCCESS")
     except Exception as e:
-        print(f"Błąd wysyłania ntfy: {e}")
+        advice = f"Pamietaj o dostosowaniu ubioru do pogody!"
+        Logger.log("weather", "FALLBACK", 0.1, "WARNING", error=str(e))
+    message = f"{weather_info}
+
+Porada: {advice}"
+    send(f"Pogoda: {CITY}", message, priority="default")
+    return message
 
 if __name__ == "__main__":
-    report = fetch_weather()
-    print(report)
-    send_notification(report)
+    print(run_weather())
