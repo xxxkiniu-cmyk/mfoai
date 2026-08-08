@@ -216,5 +216,24 @@
         "data": "EUR: 4.2982 PLN, USD: 3.7236 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-08 06:04:37",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 16.4°C (odczuwalna: 14.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3010 PLN, USD: 3.7324 PLN"
+      }
+    }
   }
 ]
