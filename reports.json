@@ -292,5 +292,24 @@
         "data": "EUR: 4.3037 PLN, USD: 3.7226 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-12 08:47:57",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Dyscyplina to most między celami a ich osiągnięciem."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 18.8°C (odczuwalna: 17.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.2996 PLN, USD: 3.7270 PLN"
+      }
+    }
   }
 ]
