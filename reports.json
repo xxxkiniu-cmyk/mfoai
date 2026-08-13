@@ -311,5 +311,24 @@
         "data": "EUR: 4.2996 PLN, USD: 3.7270 PLN"
       }
     }
+  },
+  {
+    "timestamp": "2026-08-13 08:52:21",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "model": "fallback-quote-engine",
+        "latency": "0.01s",
+        "response": "Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim."
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 21.3°C (odczuwalna: 20.7°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "EUR: 4.3033 PLN, USD: 3.7300 PLN"
+      }
+    }
   }
 ]
