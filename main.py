@@ -1,5 +1,5 @@
 import os, json, datetime
-import agents.motivator, agents.weather, agents.finance
+import agents.motivator, agents.weather, agents.finance, agents.news
 
 def try_call(mod):
     for fn in ["run", "run_motivator", "run_weather", "fetch_weather", "run_finance"]:
@@ -11,7 +11,7 @@ def try_call(mod):
 
 def main():
     report = {"timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "agents": {}}
-    for name, mod in [("motivator", agents.motivator), ("weather", agents.weather), ("finance", agents.finance)]:
+    for name, mod in [("motivator", agents.motivator), ("weather", agents.weather), ("finance", agents.finance), ("news", agents.news)]:
         try:
             res = try_call(mod)
             report["agents"][name] = {"status": "SUCCESS", "data": str(res)[:500]}
