@@ -423,5 +423,26 @@
         "data": "{'ok': True, 'EUR': '4.3075 PLN', 'USD': '3.7137 PLN'}"
       }
     }
+  },
+  {
+    "timestamp": "2026-09-27 09:38:48",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Dyscyplina to most między celami a ich osiągnięciem.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 17.1°C (odczuwalna: 15.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3750 PLN', 'USD': '3.8404 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal\n• Killer Christa Pike is to be executed within days - but her defence say she's a victim too\n• Four killed in helicopter crash near Montreal\n• Two mass shootings in South Africa leave 27 dead\n• Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris\n\n🤖 Podsumowanie AI:\n• Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal\n• K"
+      }
+    }
   }
 ]
