@@ -444,5 +444,26 @@
         "data": "📰 Wiadomości świat:\n• Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal\n• Killer Christa Pike is to be executed within days - but her defence say she's a victim too\n• Four killed in helicopter crash near Montreal\n• Two mass shootings in South Africa leave 27 dead\n• Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris\n\n🤖 Podsumowanie AI:\n• Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal\n• K"
       }
     }
+  },
+  {
+    "timestamp": "2026-09-28 10:17:36",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 19.9°C (odczuwalna: 17.3°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3769 PLN', 'USD': '3.8478 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Inside Yemen's front-line city as Houthis battle for control\n• Trump-Xi summit: What wasn't said might matter the most\n• Embattled Serbian president resigns, paving way for early elections\n• Two mass shootings in South Africa leave 28 dead\n• Four killed in helicopter crash near Montreal\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Jemenie trwa zaciekła bitwa pomiędzy juntą Houthi a siłami rządowymi o kontrolę nad miastem na pierwszej linii f"
+      }
+    }
   }
 ]
