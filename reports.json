@@ -465,5 +465,26 @@
         "data": "📰 Wiadomości świat:\n• Inside Yemen's front-line city as Houthis battle for control\n• Trump-Xi summit: What wasn't said might matter the most\n• Embattled Serbian president resigns, paving way for early elections\n• Two mass shootings in South Africa leave 28 dead\n• Four killed in helicopter crash near Montreal\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Jemenie trwa zaciekła bitwa pomiędzy juntą Houthi a siłami rządowymi o kontrolę nad miastem na pierwszej linii f"
       }
     }
+  },
+  {
+    "timestamp": "2026-09-29 10:13:48",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 20.1°C (odczuwalna: 18.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3728 PLN', 'USD': '3.8537 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• OpenAI scraps rollout of new model over safety concerns\n• Evicted Spanish pensioner can move back home, lawyer says \n• Argentina threatens legal action against UK over Falkland Islands oil exploration \n• New York Times executive fatally shot by elderly in-laws, police say\n• US ban on Canadian alcohol and dairy comes into effect as trade war drags on\n\n🤖 Podsumowanie AI:\n• OpenAI scraps rollout of new model over safety concerns\n• Evicted Spanish pensioner can move back home, "
+      }
+    }
   }
 ]
