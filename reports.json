@@ -486,5 +486,26 @@
         "data": "📰 Wiadomości świat:\n• OpenAI scraps rollout of new model over safety concerns\n• Evicted Spanish pensioner can move back home, lawyer says \n• Argentina threatens legal action against UK over Falkland Islands oil exploration \n• New York Times executive fatally shot by elderly in-laws, police say\n• US ban on Canadian alcohol and dairy comes into effect as trade war drags on\n\n🤖 Podsumowanie AI:\n• OpenAI scraps rollout of new model over safety concerns\n• Evicted Spanish pensioner can move back home, "
       }
     }
+  },
+  {
+    "timestamp": "2026-09-30 10:05:17",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 18.6°C (odczuwalna: 16.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3672 PLN', 'USD': '3.8449 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Israel-bound flight diverted after fight between pilots\n• Chinese AI tool told researchers how to make bioweapons\n• Three takeaways from Trump's 'Super Intelligence' summit\n• Girl has multiple surgeries to control infections after strike in Gaza\n• South Korea demands apology from Pyongyang for landmine blasts that injured three\n\n🤖 Podsumowanie AI:\n• Israel-bound flight diverted after fight between pilots\n• Chinese AI tool told researchers how to make bioweapons\n• Three take"
+      }
+    }
   }
 ]
