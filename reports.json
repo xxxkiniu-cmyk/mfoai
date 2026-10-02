@@ -528,5 +528,26 @@
         "data": "📰 Wiadomości świat:\n• US death row inmate survives execution attempt after two lethal injections\n• Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says\n• What we know about stabbing on Flydubai flight to Israel\n• Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine\n• Japan raises permanent residency fee by 20 times\n\n🤖 Podsumowanie AI:\n• US death row inmate survives execution attempt after two lethal injections\n• Too early to say if Ir"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-02 10:08:24",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Dyscyplina to most między celami a ich osiągnięciem.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.5°C (odczuwalna: 14.5°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3745 PLN', 'USD': '3.8881 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot\n• Christa Pike in critical condition after surviving two lethal injections, lawyer says\n• NY's governor appoints special prosecutor in Cornell frat rape investigation\n• Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row\n• Japan's first mayor to take maternity leave lands on TIME100 Next list\n\n🤖 Podsumowanie AI:\n• 'I was not going to let others"
+      }
+    }
   }
 ]
