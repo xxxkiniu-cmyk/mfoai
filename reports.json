@@ -612,5 +612,26 @@
         "data": "📰 Wiadomości świat:\n• Right-wing Flávio Bolsonaro wins first round of Brazil election\n• Nobel Prize awarded for showing how nerve cells shape feelings\n• US air force removes all bombers from British military base RAF Fairford\n• 'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa\n• France closes up to 500 schools Monday over student protests\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nBrazylia przeżywa napięte wybory prezydenckie, w kt"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-06 10:53:37",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 15.8°C (odczuwalna: 14.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3699 PLN', 'USD': '3.8868 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Trump says 'threat' led US to pull bombers from RAF Fairford\n• Fort Hood shooter to be executed by firing squad - a first for US military since World War Two\n• 'Ghost particles' from space telescope wins physics Nobel\n• Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says\n• Saudi Arabia urged to spare man sentenced to death over Facebook post\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nDonald Trump twierdzi, że zagrożenie z"
+      }
+    }
   }
 ]
