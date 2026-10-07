@@ -633,5 +633,26 @@
         "data": "📰 Wiadomości świat:\n• Trump says 'threat' led US to pull bombers from RAF Fairford\n• Fort Hood shooter to be executed by firing squad - a first for US military since World War Two\n• 'Ghost particles' from space telescope wins physics Nobel\n• Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says\n• Saudi Arabia urged to spare man sentenced to death over Facebook post\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nDonald Trump twierdzi, że zagrożenie z"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-07 10:41:13",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 18.2°C (odczuwalna: 17.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3797 PLN', 'USD': '3.9111 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• France halts use of stun grenades after boy's hand blown off in student protests\n• US death row inmate Christa Pike awake and speaking after failed execution, lawyers say\n• Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild\n• Trump to speak to Putin about plague lab worker's death in Russia\n• Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków "
+      }
+    }
   }
 ]
