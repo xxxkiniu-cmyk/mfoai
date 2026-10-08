@@ -654,5 +654,26 @@
         "data": "📰 Wiadomości świat:\n• France halts use of stun grenades after boy's hand blown off in student protests\n• US death row inmate Christa Pike awake and speaking after failed execution, lawyers say\n• Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild\n• Trump to speak to Putin about plague lab worker's death in Russia\n• Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków "
       }
     }
+  },
+  {
+    "timestamp": "2026-10-08 11:01:17",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 14.5°C (odczuwalna: 12.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3789 PLN', 'USD': '3.9132 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge\n• US and Lebanon protecting wanted Syrian general, BBC finds\n• Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain\n• Christa Pike now walking after failed US execution, lawyer tells BBC\n• Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach"
+      }
+    }
   }
 ]
