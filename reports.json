@@ -675,5 +675,26 @@
         "data": "📰 Wiadomości świat:\n• Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge\n• US and Lebanon protecting wanted Syrian general, BBC finds\n• Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain\n• Christa Pike now walking after failed US execution, lawyer tells BBC\n• Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-09 11:00:28",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 12.9°C (odczuwalna: 7.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3775 PLN', 'USD': '3.9022 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Firing squad execution to be livestreamed, Pentagon says\n• Fort Hood survivor supports gunman's execution by firing squad but questions livestream\n• Suspect linked to Monaco bomb attack on millionaire speaks to BBC\n• Thieves steal 30,000 wine bottles worth €5m in Italy, reports say\n• ICE agent shoots man in New York City\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańskie wojsko planuje transmitować na żywo egzekucję przez ćwiczenie z pl"
+      }
+    }
   }
 ]
