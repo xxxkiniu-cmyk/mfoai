@@ -696,5 +696,26 @@
         "data": "📰 Wiadomości świat:\n• Firing squad execution to be livestreamed, Pentagon says\n• Fort Hood survivor supports gunman's execution by firing squad but questions livestream\n• Suspect linked to Monaco bomb attack on millionaire speaks to BBC\n• Thieves steal 30,000 wine bottles worth €5m in Italy, reports say\n• ICE agent shoots man in New York City\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańskie wojsko planuje transmitować na żywo egzekucję przez ćwiczenie z pl"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-10 10:13:58",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 14.5°C (odczuwalna: 10.7°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3775 PLN', 'USD': '3.9022 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin\n• Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices\n• Three men found guilty of murdering Australian brothers and US friend in Mexico\n• Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says\n• Hurricane Isaias downgraded after making landfall in Florida\n\n🤖 Podsumowanie AI:\n• Trump announces deal for Russian diesel as Zelensky call"
+      }
+    }
   }
 ]
