@@ -717,5 +717,26 @@
         "data": "📰 Wiadomości świat:\n• Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin\n• Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices\n• Three men found guilty of murdering Australian brothers and US friend in Mexico\n• Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says\n• Hurricane Isaias downgraded after making landfall in Florida\n\n🤖 Podsumowanie AI:\n• Trump announces deal for Russian diesel as Zelensky call"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-11 10:25:31",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 11.2°C (odczuwalna: 6.7°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3775 PLN', 'USD': '3.9022 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal\n• Young men live in fear of being snatched off the streets and sold to Myanmar's army\n• Delhi sees more protests as 'cockroach' group's leaders released\n• US justice department investigates TV networks over Trump pool coverage\n• Four dead and thousands without power after Hurricane Isaias lashes US\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1. Donald Trum"
+      }
+    }
   }
 ]
