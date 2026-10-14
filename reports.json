@@ -780,5 +780,26 @@
         "data": "📰 Wiadomości świat:\n• Russia's offensive ability is broken, Kyiv's former top general tells BBC\n• Breaking Bad actor RJ Mitte dies aged 34\n• One dead and several hurt after rollercoaster incident at Six Flags\n• US emergency call records reveal confusion after failed execution of Christa Pike\n• Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack\n\n🤖 Podsumowanie AI:\n• Russia's offensive ability is broken, Kyiv's former top general tells BBC\n• Breaking Bad actor RJ Mitte "
       }
     }
+  },
+  {
+    "timestamp": "2026-10-14 09:07:41",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 13.5°C (odczuwalna: 9.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3806 PLN', 'USD': '3.9177 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Russian strikes leave 600,000 without power in Ukraine, Zelensky says\n• Pope diagnosed with lung cancer but had successful surgery, Vatican says\n• Turkish police raid opposition TV station, halting live broadcasts\n• Saudi employee charged with planting recording device in OpenAI office\n• Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Ukrainie, rosyjskie ataki powodują "
+      }
+    }
   }
 ]
