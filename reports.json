@@ -801,5 +801,26 @@
         "data": "📰 Wiadomości świat:\n• Russian strikes leave 600,000 without power in Ukraine, Zelensky says\n• Pope diagnosed with lung cancer but had successful surgery, Vatican says\n• Turkish police raid opposition TV station, halting live broadcasts\n• Saudi employee charged with planting recording device in OpenAI office\n• Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Ukrainie, rosyjskie ataki powodują "
       }
     }
+  },
+  {
+    "timestamp": "2026-10-15 08:40:39",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.7°C (odczuwalna: 7.8°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3706 PLN', 'USD': '3.9042 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Musk says US government may be behind slowdown of Ukraine drone speeds\n• Student protesters attack government buildings in Albania\n• Retired US generals call on Pentagon to cancel 'barbaric' execution livestream\n• White House defends new press secretary amid questions about her legal credentials\n• 'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Elon Musk sugeruj"
+      }
+    }
   }
 ]
