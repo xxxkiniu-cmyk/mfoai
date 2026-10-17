@@ -843,5 +843,26 @@
         "data": "📰 Wiadomości świat:\n• Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander\n• 'It's really hard to believe' - How Oregon primary school shooting unfolded\n• Ship attack reports near Hormuz reach record high as oil exports slow\n• Trump calls off livestream of Fort Hood attacker's execution by firing squad\n• Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdania"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-17 08:07:42",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.5°C (odczuwalna: 9.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3661 PLN', 'USD': '3.8827 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Trump waives several Russia sanctions as row with Zelensky intensifies\n• Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'\n• Three men jailed for 158 years each for murdering Australian and US surfers in Mexico\n• Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role\n• Brazil sees record fall in Amazon deforestation as key election looms\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:"
+      }
+    }
   }
 ]
