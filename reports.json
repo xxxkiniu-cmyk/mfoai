@@ -864,5 +864,26 @@
         "data": "📰 Wiadomości świat:\n• Trump waives several Russia sanctions as row with Zelensky intensifies\n• Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'\n• Three men jailed for 158 years each for murdering Australian and US surfers in Mexico\n• Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role\n• Brazil sees record fall in Amazon deforestation as key election looms\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-18 08:24:18",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 11.9°C (odczuwalna: 9.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3661 PLN', 'USD': '3.8827 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests\n• Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat\n• A wave of homemade, synthetic drugs sweeps US and deepens crisis\n• European diplomats attacked by Israeli settlers in West Bank\n• Several dead or injured in major fire at Canada military base\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nFrancja jest w c"
+      }
+    }
   }
 ]
