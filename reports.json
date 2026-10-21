@@ -927,5 +927,26 @@
         "data": "📰 Wiadomości świat:\n• Suspect arrested after historic town hall set alight during disorder - French media\n• Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC\n• Seventh day of violent clashes between Albanian protesters and police\n• Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure\n• Mission blasts off for Mars to grab a piece of its moon\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-21 08:58:23",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 12.2°C (odczuwalna: 10.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3716 PLN', 'USD': '3.8959 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia\n• Trump and Zelensky appear at loggerheads despite Oslo optimism\n• Katya Adler: France divided over who to blame for riots and what to learn from them\n• Australian MP loses both legs after alleged car attack, husband says\n• Elon Musk confirms he is considering merging Tesla and SpaceX\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nUkraiński prezydent Wołodymyr Z"
+      }
+    }
   }
 ]
