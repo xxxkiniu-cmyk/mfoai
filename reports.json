@@ -948,5 +948,26 @@
         "data": "📰 Wiadomości świat:\n• Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia\n• Trump and Zelensky appear at loggerheads despite Oslo optimism\n• Katya Adler: France divided over who to blame for riots and what to learn from them\n• Australian MP loses both legs after alleged car attack, husband says\n• Elon Musk confirms he is considering merging Tesla and SpaceX\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nUkraiński prezydent Wołodymyr Z"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-22 09:00:41",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.9°C (odczuwalna: 7.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3641 PLN', 'USD': '3.8889 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• What is PHP and why did it spark a global cyber-security scramble?\n• How Arab parties could hold critical balance of power in Israeli election\n• Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks\n• Celebrity shark guided out of South Korea canal refuses to swim out to sea\n• US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   PHP, popularny język "
+      }
+    }
   }
 ]
