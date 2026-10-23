@@ -969,5 +969,26 @@
         "data": "📰 Wiadomości świat:\n• What is PHP and why did it spark a global cyber-security scramble?\n• How Arab parties could hold critical balance of power in Israeli election\n• Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks\n• Celebrity shark guided out of South Korea canal refuses to swim out to sea\n• US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   PHP, popularny język "
       }
     }
+  },
+  {
+    "timestamp": "2026-10-23 08:55:36",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.1°C (odczuwalna: 6.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3685 PLN', 'USD': '3.8886 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds\n• Hundreds of flights cancelled as Typhoon Champi shuts Taiwan\n• Ukraine says Starlink still restricted after Trump says limits lifted\n• Powerful earthquake hits Tibet killing 16 people, reports say\n• L'Oreal says weight loss drugs are impacting beauty and skincare sales\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Sudanie bojownicy RSF celowo atakują szpitale, co odkryto dzi"
+      }
+    }
   }
 ]
