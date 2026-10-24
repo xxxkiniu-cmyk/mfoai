@@ -990,5 +990,26 @@
         "data": "📰 Wiadomości świat:\n• Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds\n• Hundreds of flights cancelled as Typhoon Champi shuts Taiwan\n• Ukraine says Starlink still restricted after Trump says limits lifted\n• Powerful earthquake hits Tibet killing 16 people, reports say\n• L'Oreal says weight loss drugs are impacting beauty and skincare sales\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Sudanie bojownicy RSF celowo atakują szpitale, co odkryto dzi"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-24 08:29:12",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 11.5°C (odczuwalna: 6.9°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3917 PLN', 'USD': '3.9247 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• France prepares for day of protest a week after nationwide riots\n• Arrest made after fire at Hitler's famed Eagle's Nest retreat\n• Father who killed Oregon school gunman describes anguish over children he couldn't save\n• Trump administration sues to block certification of upcoming Alaska election\n• Student movement takes Serbia's Vučić to the wire in neck-and-neck election\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nFrancja przygotowuje się d"
+      }
+    }
   }
 ]
