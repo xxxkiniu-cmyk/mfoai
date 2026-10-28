@@ -1074,5 +1074,26 @@
         "data": "📰 Wiadomości świat:\n• Israel heads to polls for pivotal election defined by security and democracy\n• Lula's comeback in Brazil dents Trump's ambitions for Latin America\n• Truce begins in Ukraine city where residents ate weeds to survive\n• Jordan carries out deadly strike in Syria in retaliation for church attack\n• Ex-FBI chief James Comey faces federal charges for third time\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nIzrael przygotowuje się do kluczowych wyborów,"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-28 10:08:01",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.1°C (odczuwalna: 9.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4056 PLN', 'USD': '3.9542 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Luxury cruise passengers stranded in Cambodia due to soaring fuel costs\n• Ceasefire extended across Ukraine's Kherson region, officials say\n• King acknowledges 'suffering of the past' as Caribbean tour begins\n• Dutch zookeeper dies after being mauled by leopard\n• Norway and Finland leaders hold rare call with Putin\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Luksusowe statki wycieczkowe zostały sparaliżowane w Kambodży z powodu dramatycz"
+      }
+    }
   }
 ]
