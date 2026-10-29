@@ -1095,5 +1095,26 @@
         "data": "📰 Wiadomości świat:\n• Luxury cruise passengers stranded in Cambodia due to soaring fuel costs\n• Ceasefire extended across Ukraine's Kherson region, officials say\n• King acknowledges 'suffering of the past' as Caribbean tour begins\n• Dutch zookeeper dies after being mauled by leopard\n• Norway and Finland leaders hold rare call with Putin\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Luksusowe statki wycieczkowe zostały sparaliżowane w Kambodży z powodu dramatycz"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-29 10:33:29",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 8.2°C (odczuwalna: 5.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4090 PLN', 'USD': '3.9624 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Audio reveals exchanges between control centre and drivers before deadly Spain train crash\n• Flávio Bolsonaro denies fleeing Brazil after landing in Miami\n• Netanyahu's bloc leading Israel election but short of majority, partial results show\n• Carney to push for closer ties at Canada-EU summit in Montreal\n• Building boom puts 300,000 people in the path of potential Himalayan disasters\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Hiszpa"
+      }
+    }
   }
 ]
