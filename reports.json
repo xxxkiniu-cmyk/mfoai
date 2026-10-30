@@ -1116,5 +1116,26 @@
         "data": "📰 Wiadomości świat:\n• Audio reveals exchanges between control centre and drivers before deadly Spain train crash\n• Flávio Bolsonaro denies fleeing Brazil after landing in Miami\n• Netanyahu's bloc leading Israel election but short of majority, partial results show\n• Carney to push for closer ties at Canada-EU summit in Montreal\n• Building boom puts 300,000 people in the path of potential Himalayan disasters\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Hiszpa"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-30 10:33:08",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.5°C (odczuwalna: 8.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3951 PLN', 'USD': '3.9473 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Mushroom murderer fails to overturn convictions in Australian court challenge\n• Syrians struggle with soaring prices as crisis challenges post-Assad recovery\n• How Kenyans got caught in $130m US ghost student scam\n• Helicopter carrying six people crashes in northern Indian state \n• Human rights lawyer couple sentenced to 10 years' prison in Pakistan\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Australii, mężczyzna próbujący odwrócić wyroki z"
+      }
+    }
   }
 ]
