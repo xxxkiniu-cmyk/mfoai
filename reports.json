@@ -1137,5 +1137,26 @@
         "data": "📰 Wiadomości świat:\n• Mushroom murderer fails to overturn convictions in Australian court challenge\n• Syrians struggle with soaring prices as crisis challenges post-Assad recovery\n• How Kenyans got caught in $130m US ghost student scam\n• Helicopter carrying six people crashes in northern Indian state \n• Human rights lawyer couple sentenced to 10 years' prison in Pakistan\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Australii, mężczyzna próbujący odwrócić wyroki z"
       }
     }
+  },
+  {
+    "timestamp": "2026-10-31 10:01:37",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}"
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.3°C (odczuwalna: 7.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3955 PLN', 'USD': '3.9251 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• US approves sale of 500 Patriot missiles to Ukraine\n• Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea\n• Why North Korea's 'elite' hackers are the prime suspect in major Binance hack\n• Police deployed during stand-off over control of top Poland court\n• Spain train disaster clouds Sánchez chances of re-election\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nStany Zjednoczone oficjalnie zatwierdziły sprzedaż 5"
+      }
+    }
   }
 ]
