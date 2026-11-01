@@ -1,0 +1,31 @@
+name: Offline report tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  offline-report-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install test dependencies
+        run: python -m pip install requests
+      - name: Run offline report tests
+        env:
+          OPENROUTER_API_KEY: ''
+          OPENROUTER_KEY: ''
+          NTFY_TOPIC: ''
+        run: |
+          python -m unittest discover -s tests -p test_motivator_report.py -v
+          python -m unittest discover -s tests -p test_news_report.py -v
