@@ -1,4 +1,4 @@
-import os, json, datetime
+import os, json, datetime, tempfile
 import agents.motivator, agents.weather, agents.finance, agents.news
 
 def try_call(mod):
@@ -10,6 +10,17 @@ def try_call(mod):
     raise Exception(f"Brak funkcji startowej w {mod.__name__}")
 
 def main():
+    fp = "reports.json"
+    try:
+        with open(fp, "r", encoding="utf-8") as f:
+            hist = json.load(f)
+    except FileNotFoundError:
+        hist = []
+    except (OSError, ValueError):
+        raise RuntimeError("Nie można odczytać reports.json; zapis wstrzymany.") from None
+    if not isinstance(hist, list):
+        raise RuntimeError("reports.json musi zawierać listę; zapis wstrzymany.")
+
     report = {"timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "agents": {}}
     for name, mod in [("motivator", agents.motivator), ("weather", agents.weather), ("finance", agents.finance), ("news", agents.news)]:
         try:
@@ -23,14 +34,26 @@ def main():
             report["agents"][name] = {"status": "ERROR", "error": str(e)}
             print(f"[{name}] ERROR: {e}")
 
-    fp="reports.json"
-    hist=[]
-    if os.path.exists(fp):
-        try:
-            with open(fp,'r',encoding='utf-8') as f: hist=json.load(f)
-        except: hist=[]
     hist.append(report)
-    with open(fp,'w',encoding='utf-8') as f: json.dump(hist,f,ensure_ascii=False,indent=2)
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=os.path.dirname(os.path.abspath(fp)),
+            prefix=".reports-", suffix=".tmp", delete=False,
+        ) as f:
+            temp_path = f.name
+            json.dump(hist, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(temp_path, fp)
+    except (OSError, ValueError, TypeError):
+        raise RuntimeError("Nie można zapisać reports.json; oryginał zachowany.") from None
+    finally:
+        if temp_path is not None:
+            try:
+                os.unlink(temp_path)
+            except FileNotFoundError:
+                pass
     print(f"\n[INFO] Zapisano raport do {fp}")
 
 if __name__ == "__main__":
