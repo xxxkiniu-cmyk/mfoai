@@ -1158,5 +1158,27 @@
         "data": "📰 Wiadomości świat:\n• US approves sale of 500 Patriot missiles to Ukraine\n• Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea\n• Why North Korea's 'elite' hackers are the prime suspect in major Binance hack\n• Police deployed during stand-off over control of top Poland court\n• Spain train disaster clouds Sánchez chances of re-election\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nStany Zjednoczone oficjalnie zatwierdziły sprzedaż 5"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-01 10:53:24",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.5°C (odczuwalna: 7.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3955 PLN', 'USD': '3.9251 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Shops looted as German cost of living protests turn violent\n• 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city\n• Ukrainian evacuees reunite with family after years trapped in Russia-occupied city\n• Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book\n• Crypto firm Binance covers 90% of losses after $6.3bn hack\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W Niemczech protesty przeciwko rosnącej cenie życia przeradzają się w akt rabunków w sklepach, sygnalizując eskalację napięć społecznych.\n2.  Ukraińcy, którzy przez lata przebywali w mieście zajętym przez Rosję na linii frontu, opowiadają o przetrwaniu w \"piekle\" i powracają do domu.\n3.  Ukraińskie rodziny, które długo były rozdzielone, ponownie się spotykają po ewakuacji z miasta zajętego przez Rosję, co symbolizuje nadzieję i odbudowę.\n4.  Sąd odrzucił pozew Donalda Trumpa przeciwko Wall Street Journalowi dotyczący książki o Jeffrey'm Epstein, co pokazuje kontynuację walki prawnej.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Trend:**  W kontekście trudnej sytuacji geopolitycznej i migracji (jak w przypadku Ukrainy) rośnie zapotrzebowanie na bezpieczne i szybkie transporty humanitarne oraz materiały budowlane do odbudowy.\n\n**Propozycja:** MFO folie mogą być wykorzystywane do szybkiego budowania tymczasowych schronień, magazynów, placów budowy i zabezpieczania transportu dla pomocy humanitarnej.\n\n**Wezwanie do działania:** \"Potrzebujemy Państwa wsparcia! Inwestując w nasze MFO folie, pomagacie w zapewnieniu schronienia i bezpieczeństwa dla uchodźców i ofiar wojny. Wspólnie możemy zbudować lepszą przyszłość!\"\n"
+      }
+    }
   }
 ]
