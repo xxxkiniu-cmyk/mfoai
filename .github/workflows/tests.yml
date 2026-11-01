@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install test dependencies
-        run: python -m pip install requests
+        run: python -m pip install requests PyYAML
       - name: Run offline report tests
         env:
           OPENROUTER_API_KEY: ''
@@ -29,3 +29,4 @@ jobs:
         run: |
           python -m unittest discover -s tests -p test_motivator_report.py -v
           python -m unittest discover -s tests -p test_news_report.py -v
+          python -m unittest discover -s tests -p test_daily_workflow.py -v
