@@ -40,6 +40,7 @@ def get_motivation():
                     return {
                         "ok": True, 
                         "model": model, 
+                        "fallback_used": False,
                         "latency": f"{latency}s", 
                         "response": msg
                     }
@@ -59,6 +60,7 @@ def get_motivation():
     return {
         "ok": True,
         "model": "fallback-quote-engine",
+        "fallback_used": True,
         "latency": "0.01s",
         "response": quote
     }

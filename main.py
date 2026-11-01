@@ -14,7 +14,10 @@ def main():
     for name, mod in [("motivator", agents.motivator), ("weather", agents.weather), ("finance", agents.finance), ("news", agents.news)]:
         try:
             res = try_call(mod)
-            report["agents"][name] = {"status": "SUCCESS", "data": str(res)[:500]}
+            data = str(res) if name == "news" else str(res)[:500]
+            report["agents"][name] = {"status": "SUCCESS", "data": data}
+            if name == "motivator":
+                report["agents"][name]["fallback_used"] = res["fallback_used"]
             print(f"[{name}] SUCCESS")
         except Exception as e:
             report["agents"][name] = {"status": "ERROR", "error": str(e)}
