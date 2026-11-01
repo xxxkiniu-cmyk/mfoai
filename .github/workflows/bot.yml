@@ -21,9 +21,20 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_KEY }}
       - name: Commit & Push reports.json
+        shell: bash
         run: |
+          set -euo pipefail
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add reports.json
-          git commit -m "Chore: daily report update [skip ci]" || exit 0
+          if git diff --cached --quiet --exit-code -- reports.json; then
+            echo "reports.json unchanged; skipping commit and push."
+            exit 0
+          else
+            diff_status=$?
+            if [ "$diff_status" -ne 1 ]; then
+              exit "$diff_status"
+            fi
+          fi
+          git commit -m "Chore: daily report update [skip ci]"
           git push
