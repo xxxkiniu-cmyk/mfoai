@@ -1180,5 +1180,27 @@
         "data": "📰 Wiadomości świat:\n• Shops looted as German cost of living protests turn violent\n• 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city\n• Ukrainian evacuees reunite with family after years trapped in Russia-occupied city\n• Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book\n• Crypto firm Binance covers 90% of losses after $6.3bn hack\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W Niemczech protesty przeciwko rosnącej cenie życia przeradzają się w akt rabunków w sklepach, sygnalizując eskalację napięć społecznych.\n2.  Ukraińcy, którzy przez lata przebywali w mieście zajętym przez Rosję na linii frontu, opowiadają o przetrwaniu w \"piekle\" i powracają do domu.\n3.  Ukraińskie rodziny, które długo były rozdzielone, ponownie się spotykają po ewakuacji z miasta zajętego przez Rosję, co symbolizuje nadzieję i odbudowę.\n4.  Sąd odrzucił pozew Donalda Trumpa przeciwko Wall Street Journalowi dotyczący książki o Jeffrey'm Epstein, co pokazuje kontynuację walki prawnej.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Trend:**  W kontekście trudnej sytuacji geopolitycznej i migracji (jak w przypadku Ukrainy) rośnie zapotrzebowanie na bezpieczne i szybkie transporty humanitarne oraz materiały budowlane do odbudowy.\n\n**Propozycja:** MFO folie mogą być wykorzystywane do szybkiego budowania tymczasowych schronień, magazynów, placów budowy i zabezpieczania transportu dla pomocy humanitarnej.\n\n**Wezwanie do działania:** \"Potrzebujemy Państwa wsparcia! Inwestując w nasze MFO folie, pomagacie w zapewnieniu schronienia i bezpieczeństwa dla uchodźców i ofiar wojny. Wspólnie możemy zbudować lepszą przyszłość!\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-02 11:48:38",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.8°C (odczuwalna: 6.9°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4185 PLN', 'USD': '3.9389 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Iran killed her teenage daughter - now she is facing up to the regime\n• Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack\n• Nine killed as small jet crashes on Florida street\n• Five arrested after South African farmer shot and tortured\n• Ryanair says it may freeze workers' pay and raise airfares\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Iranie dochodzi do tragicznych wydarzeń, gdzie śmierć nastoletniej dziewczyny, prawdopodobnie w wyniku represji, wywołała oburzenie i napięcie w stosunku do reżimu.  W Europie, w Belgii i Szwecji, przemysł spożywczy zmaga się z potencjalnymi problemami związanymi z cyberatakami na lodówki supermarketów.  W Stanach Zjednoczonych, tragicznym wypadkiem lotniczym zginęło dziewięć osób, gdy samolot rozbił się na ulicy w Florydzie.  W Afryce, w Południowej Afryce, doszło do przerażającego aktu przemocy, gdzie farmer został zastrzelony i torturowany, a pięciu osób zarzucono udział w przestępstwie.\n\n**Okazja dla MFO Folie:**\n\n**Sytuacja:** Z uwagi na ryzyko cyberataków na infrastrukturę krytyczną, jak lodówki w supermarketach, rośnie zapotrzebowanie na zabezpieczenia, które zapewnią odporność na uszkodzenia i utratę danych.\n\n**Wezwanie do działania:** **MFO Folie oferuje specjalnie zaprojektowane folie ochronne odporne na wilgoć, temperaturę i uszkodzenia mechaniczne, idealne do zabezpieczenia wrażliwego sprzętu elektronicznego i urządzeń w lodówkach.  Zainwestuj w bezpieczeństwo i niezawodność – skontaktuj się z MFO Folie już dziś, aby dowiedzieć się więcej o naszych rozwiązaniach i zamówić folie ochronne dla Twojej firmy! (Link do strony internetowej MFO Folie)**\n"
+      }
+    }
   }
 ]
