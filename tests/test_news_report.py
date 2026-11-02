@@ -7,8 +7,10 @@ import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
+import requests
+
 import main
-from agents import news
+from agents import finance, news
 from core import llm_client
 
 
@@ -60,6 +62,83 @@ class NewsReportTests(unittest.TestCase):
                 self.assertEqual(result["data"], expected)
             finally:
                 os.chdir(previous)
+
+
+class FinanceReportTests(unittest.TestCase):
+    def run_report(self, response=None, error=None):
+        weather_response = Mock()
+        weather_response.json.return_value = {"current": {"temperature_2m": 12}}
+
+        def http_get(url, **kwargs):
+            if url.startswith("https://api.nbp.pl/"):
+                if error is not None:
+                    raise error
+                return response
+            if url.startswith("https://api.open-meteo.com/"):
+                return weather_response
+            raise AssertionError(f"Unexpected HTTP GET: {url}")
+
+        rss = b'<rss><channel><title>BBC</title><item><title>Offline news</title></item></channel></rss>'
+        model_response = Mock()
+        model_response.raise_for_status.return_value = None
+        model_response.json.return_value = {
+            "choices": [{"message": {"content": "Offline summary"}}]
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            previous = os.getcwd()
+            try:
+                os.chdir(directory)
+                with (
+                    patch.dict(os.environ, {"OPENROUTER_API_KEY": "", "OPENROUTER_KEY": ""}),
+                    patch("socket.socket", side_effect=AssertionError("Network forbidden")),
+                    patch.object(finance.requests, "get", side_effect=http_get),
+                    patch.object(finance.requests, "post", return_value=model_response),
+                    patch.object(news.urllib.request, "urlopen", return_value=io.BytesIO(rss)),
+                    patch.object(finance, "send_notification"),
+                    patch.object(main.agents.weather, "send_notification"),
+                    patch.object(main.agents.motivator, "send_notification"),
+                    patch.object(news, "send"),
+                    contextlib.redirect_stdout(io.StringIO()),
+                ):
+                    main.main()
+                reports = json.loads(Path("reports.json").read_text(encoding="utf-8"))
+                self.assertEqual(len(reports), 1)
+                agents = reports[0]["agents"]
+                self.assertEqual(agents["news"]["status"], "SUCCESS")
+                self.assertIn("Offline news", agents["news"]["data"])
+                self.assertEqual(agents["weather"]["status"], "SUCCESS")
+                self.assertEqual(agents["motivator"]["status"], "SUCCESS")
+                self.assertIs(agents["motivator"]["fallback_used"], True)
+                return agents["finance"]
+            finally:
+                os.chdir(previous)
+
+    def test_finance_http_503_is_reported_as_error(self):
+        result = self.run_report(response=Mock(status_code=503))
+        self.assertEqual(result["status"], "ERROR")
+        self.assertEqual(result["error"], "HTTP 503")
+
+    def test_finance_timeout_is_reported_as_error(self):
+        result = self.run_report(error=requests.Timeout("offline timeout"))
+        self.assertEqual(result["status"], "ERROR")
+        self.assertEqual(result["error"], "offline timeout")
+
+    def test_finance_invalid_json_is_reported_as_error(self):
+        response = Mock(status_code=200)
+        response.json.side_effect = ValueError("invalid JSON")
+        result = self.run_report(response=response)
+        self.assertEqual(result["status"], "ERROR")
+        self.assertEqual(result["error"], "invalid JSON")
+
+    def test_finance_valid_rates_are_reported_as_success(self):
+        response = Mock(status_code=200)
+        response.json.return_value = [{"rates": [
+            {"code": "EUR", "mid": 4.25}, {"code": "USD", "mid": 3.75},
+        ]}]
+        result = self.run_report(response=response)
+        self.assertEqual(result["status"], "SUCCESS")
+        self.assertIn("4.2500 PLN", result["data"])
+        self.assertIn("3.7500 PLN", result["data"])
 
 
 class ReportHistoryTests(unittest.TestCase):

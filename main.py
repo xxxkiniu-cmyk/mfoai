@@ -26,6 +26,11 @@ def main():
         try:
             res = try_call(mod)
             data = str(res) if name == "news" else str(res)[:500]
+            if isinstance(res, dict) and res.get("ok") is False:
+                error = str(res.get("error") or "Agent zwrócił ok=False.")
+                report["agents"][name] = {"status": "ERROR", "data": data, "error": error}
+                print(f"[{name}] ERROR: {error}")
+                continue
             report["agents"][name] = {"status": "SUCCESS", "data": data}
             if name == "motivator":
                 report["agents"][name]["fallback_used"] = res["fallback_used"]
