@@ -1202,5 +1202,27 @@
         "data": "📰 Wiadomości świat:\n• Iran killed her teenage daughter - now she is facing up to the regime\n• Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack\n• Nine killed as small jet crashes on Florida street\n• Five arrested after South African farmer shot and tortured\n• Ryanair says it may freeze workers' pay and raise airfares\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Iranie dochodzi do tragicznych wydarzeń, gdzie śmierć nastoletniej dziewczyny, prawdopodobnie w wyniku represji, wywołała oburzenie i napięcie w stosunku do reżimu.  W Europie, w Belgii i Szwecji, przemysł spożywczy zmaga się z potencjalnymi problemami związanymi z cyberatakami na lodówki supermarketów.  W Stanach Zjednoczonych, tragicznym wypadkiem lotniczym zginęło dziewięć osób, gdy samolot rozbił się na ulicy w Florydzie.  W Afryce, w Południowej Afryce, doszło do przerażającego aktu przemocy, gdzie farmer został zastrzelony i torturowany, a pięciu osób zarzucono udział w przestępstwie.\n\n**Okazja dla MFO Folie:**\n\n**Sytuacja:** Z uwagi na ryzyko cyberataków na infrastrukturę krytyczną, jak lodówki w supermarketach, rośnie zapotrzebowanie na zabezpieczenia, które zapewnią odporność na uszkodzenia i utratę danych.\n\n**Wezwanie do działania:** **MFO Folie oferuje specjalnie zaprojektowane folie ochronne odporne na wilgoć, temperaturę i uszkodzenia mechaniczne, idealne do zabezpieczenia wrażliwego sprzętu elektronicznego i urządzeń w lodówkach.  Zainwestuj w bezpieczeństwo i niezawodność – skontaktuj się z MFO Folie już dziś, aby dowiedzieć się więcej o naszych rozwiązaniach i zamówić folie ochronne dla Twojej firmy! (Link do strony internetowej MFO Folie)**\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-03 11:27:54",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.6°C (odczuwalna: 7.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4233 PLN', 'USD': '3.9526 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• US strikes Iranian island ahead of midterm elections\n• Supreme Court rejects Trump's request to stop California counting disputed votes\n• Russian bombing kills 29 people at Ukraine aid centre, Kyiv says\n• Tenerife striker De Miguel dies after on-field collision \n• Jet may have broken apart before Florida crash, officials say, as family named among victims\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   USA dokonały uderzenia na wyspę irańską, prawdopodobnie w odpowiedzi na ataki dronów na amerykańskie okręty.\n*   Sąd Najwyższy USA odmówił Donaladowi Trumpowi wstrzymania liczenia spornych głosów w Kalifornii, co komplikuje sytuację przed wyborami środowych.\n*   Rosyjskie bombardowanie zabiło 29 osób w centrum pomocy humanitarnej w Kijowie, co pogarsza obraz rosyjskiej agresji na Ukrainę.\n*   Śmierć hiszpańskiego piłkarza, Joseba De Miguela, po wypadku na boisku, wzbudziła ogromne żale w społeczności sportowej.\n*   Wciąż niejasne jest, jak doszło do katastrofy lotniczej w Florydzie, jednak wstępne informacje sugerują, że samolot mógł się rozbić na kawałki przed uderzeniem o ziemię, a wśród ofiar znajdują się rodziny.\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii może zaoferować **folie awaryjne do szybkiego budowy schronów i miejsc schronienia** dla ofiar katastrof naturalnych i konfliktów zbrojnych, takich jak ta w Ukrainie. **Wezwanie do działania:** \"Pomóż nam w przygotowaniu zestawów pierwszej pomocy i schronień z folii dla potrzebujących w Ukrainie i innych krajach dotkniętych kryzysami. Wsparcie finansowe lub donacja materiałów będzie nieocenione!\"\n"
+      }
+    }
   }
 ]
