@@ -30,3 +30,4 @@ jobs:
           python -m unittest discover -s tests -p test_motivator_report.py -v
           python -m unittest discover -s tests -p test_news_report.py -v
           python -m unittest discover -s tests -p test_daily_workflow.py -v
+          python -m unittest discover -s tests -p test_notification_timeouts.py -v
