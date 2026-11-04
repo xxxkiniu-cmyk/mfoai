@@ -1224,5 +1224,27 @@
         "data": "📰 Wiadomości świat:\n• US strikes Iranian island ahead of midterm elections\n• Supreme Court rejects Trump's request to stop California counting disputed votes\n• Russian bombing kills 29 people at Ukraine aid centre, Kyiv says\n• Tenerife striker De Miguel dies after on-field collision \n• Jet may have broken apart before Florida crash, officials say, as family named among victims\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   USA dokonały uderzenia na wyspę irańską, prawdopodobnie w odpowiedzi na ataki dronów na amerykańskie okręty.\n*   Sąd Najwyższy USA odmówił Donaladowi Trumpowi wstrzymania liczenia spornych głosów w Kalifornii, co komplikuje sytuację przed wyborami środowych.\n*   Rosyjskie bombardowanie zabiło 29 osób w centrum pomocy humanitarnej w Kijowie, co pogarsza obraz rosyjskiej agresji na Ukrainę.\n*   Śmierć hiszpańskiego piłkarza, Joseba De Miguela, po wypadku na boisku, wzbudziła ogromne żale w społeczności sportowej.\n*   Wciąż niejasne jest, jak doszło do katastrofy lotniczej w Florydzie, jednak wstępne informacje sugerują, że samolot mógł się rozbić na kawałki przed uderzeniem o ziemię, a wśród ofiar znajdują się rodziny.\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii może zaoferować **folie awaryjne do szybkiego budowy schronów i miejsc schronienia** dla ofiar katastrof naturalnych i konfliktów zbrojnych, takich jak ta w Ukrainie. **Wezwanie do działania:** \"Pomóż nam w przygotowaniu zestawów pierwszej pomocy i schronień z folii dla potrzebujących w Ukrainie i innych krajach dotkniętych kryzysami. Wsparcie finansowe lub donacja materiałów będzie nieocenione!\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-04 11:44:01",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 10.5°C (odczuwalna: 8.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4014 PLN', 'USD': '3.9097 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• South Carolina elects Democratic senator for first time in almost three decades\n• James Talarico becomes first Democrat to win Texas Senate seat since 1988\n• Florida Republicans fend off Democrats as state elects first black governor\n• Iran's chief negotiator says Americans voted 'no to war'\n• Delhi air quality worsens ahead of Diwali as firework restrictions enter force\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmeryka odnotowuje znaczące zmiany w polityce, z wyborem demokratycznego senatora w Karolinie Południowej po prawie 30 latach oraz wygraną Demokraty w Senacie Teksasu od 1988 roku. W Florydzie Republikanie utrzymali władzę, ale wybrali pierwszego w historii czarnego gubernatora. W Iranie przedstawiciele negocjacji twierdzą, że amerykańskie społeczeństwo odrzuciło pomysł wojny. W Indiach pogarszająca się jakość powietrza w Delhi poprzedza święta Diwal, kiedy wchodzą w życie ograniczenia dotyczące fajerwerków.\n\n**Okazja dla MFO folie:**\n\n**Sytuacja:** Zwiększone zapotrzebowanie na rozwiązania chroniące przed zanieczyszczeniem powietrza w miastach takich jak Delhi, gdzie spalanie fajerwerków powoduje gwałtowne pogorszenie jakości powietrza.\n\n**Wezwanie do działania:** MFO folie może oferować **specjalną linię folii do spalania fajerwerków, która minimalizuje emisję szkodliwych substancji i dymu, zapewniając jednocześnie bezpieczne i efektywne spalanie**.  Kampania marketingowa mogłaby podkreślać korzyści dla zdrowia publicznego i środowiska, zachęcając do wyboru bardziej ekologicznych rozwiązań.  (Przykładowy slogan: \"Diwali bez dymu - wybierz folię MFO!\")\n"
+      }
+    }
   }
 ]
