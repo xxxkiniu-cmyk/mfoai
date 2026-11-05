@@ -1246,5 +1246,27 @@
         "data": "📰 Wiadomości świat:\n• South Carolina elects Democratic senator for first time in almost three decades\n• James Talarico becomes first Democrat to win Texas Senate seat since 1988\n• Florida Republicans fend off Democrats as state elects first black governor\n• Iran's chief negotiator says Americans voted 'no to war'\n• Delhi air quality worsens ahead of Diwali as firework restrictions enter force\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmeryka odnotowuje znaczące zmiany w polityce, z wyborem demokratycznego senatora w Karolinie Południowej po prawie 30 latach oraz wygraną Demokraty w Senacie Teksasu od 1988 roku. W Florydzie Republikanie utrzymali władzę, ale wybrali pierwszego w historii czarnego gubernatora. W Iranie przedstawiciele negocjacji twierdzą, że amerykańskie społeczeństwo odrzuciło pomysł wojny. W Indiach pogarszająca się jakość powietrza w Delhi poprzedza święta Diwal, kiedy wchodzą w życie ograniczenia dotyczące fajerwerków.\n\n**Okazja dla MFO folie:**\n\n**Sytuacja:** Zwiększone zapotrzebowanie na rozwiązania chroniące przed zanieczyszczeniem powietrza w miastach takich jak Delhi, gdzie spalanie fajerwerków powoduje gwałtowne pogorszenie jakości powietrza.\n\n**Wezwanie do działania:** MFO folie może oferować **specjalną linię folii do spalania fajerwerków, która minimalizuje emisję szkodliwych substancji i dymu, zapewniając jednocześnie bezpieczne i efektywne spalanie**.  Kampania marketingowa mogłaby podkreślać korzyści dla zdrowia publicznego i środowiska, zachęcając do wyboru bardziej ekologicznych rozwiązań.  (Przykładowy slogan: \"Diwali bez dymu - wybierz folię MFO!\")\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-05 11:42:41",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 7.7°C (odczuwalna: 5.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3916 PLN', 'USD': '3.9101 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Vance walks Trump tightrope with scathing election critique blaming Iran war\n• What Democrats can and can't do with their new power after taking Congress\n• France gears up for strikes and protests as unions promise national mobilisation\n• Ronaldo retires from Portugal duty\n• Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańscy politycy, w tym Vance, są w trudnej sytuacji, próbując zbalansować wsparcie dla Trumpa z krytyką w związku z napiętą sytuacją na Bliskim Wschodzie. Demokratyczny Kongres zyskał nową władzę, ale ich możliwości są ograniczone, a przyszłość polityki w USA pozostaje niepewna. W Francji zbliża się fala strajków i protestów, a związki zawodowe zapowiadają szeroką mobilizację społeczną.  Ważnym wydarzeniem jest również zakończenie kariery piłkarskiej Cristiano Ronaldo w reprezentacji Portugalii.\n\n**Okazja dla MFO folie:**\n\n**Nagłówek:** \"Francja w chaosie - protesty i strajki zagrażają gospodarczemu wzrostowi.\"\n\n**Wezwanie do działania:** \"Zabezpiecz swoje inwestycje i biznes w obliczu niepewności. MFO folie oferuje trwałe i niezawodne zabezpieczenie dla Twoich aktywów, zapewniając spokój ducha w trudnych czasach. **Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych rozwiązaniach ochronnych!**\"\n"
+      }
+    }
   }
 ]
