@@ -1268,5 +1268,27 @@
         "data": "📰 Wiadomości świat:\n• Vance walks Trump tightrope with scathing election critique blaming Iran war\n• What Democrats can and can't do with their new power after taking Congress\n• France gears up for strikes and protests as unions promise national mobilisation\n• Ronaldo retires from Portugal duty\n• Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańscy politycy, w tym Vance, są w trudnej sytuacji, próbując zbalansować wsparcie dla Trumpa z krytyką w związku z napiętą sytuacją na Bliskim Wschodzie. Demokratyczny Kongres zyskał nową władzę, ale ich możliwości są ograniczone, a przyszłość polityki w USA pozostaje niepewna. W Francji zbliża się fala strajków i protestów, a związki zawodowe zapowiadają szeroką mobilizację społeczną.  Ważnym wydarzeniem jest również zakończenie kariery piłkarskiej Cristiano Ronaldo w reprezentacji Portugalii.\n\n**Okazja dla MFO folie:**\n\n**Nagłówek:** \"Francja w chaosie - protesty i strajki zagrażają gospodarczemu wzrostowi.\"\n\n**Wezwanie do działania:** \"Zabezpiecz swoje inwestycje i biznes w obliczu niepewności. MFO folie oferuje trwałe i niezawodne zabezpieczenie dla Twoich aktywów, zapewniając spokój ducha w trudnych czasach. **Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych rozwiązaniach ochronnych!**\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-06 11:41:03",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 9.6°C (odczuwalna: 6.9°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3925 PLN', 'USD': '3.9321 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• White House denies Hegseth and Rubio to leave jobs after Republican election losses\n• Trump signs order to preserve Oval Office as national monument\n• Two dead after bus crashes in France, officials say\n• Pope begins lengthy trip to Latin America weeks after lung cancer surgery\n• Major construction ongoing near Iran missile bases, satellite images suggest\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańskie władze odmawiają, że Tucker Hegseth i Marco Rubio opuszczą swoje stanowiska po przegranych wyborach republikańskich, co sugeruje, że polityka wewnętrzna USA nadal jest pełna napięć. Donald Trump podpisał rozporządzenie, mające na celu odesprzedzenie Oval Office jako pomnik narodowy, co wskazuje na jego dążenie do pozostawienia po sobie śladu w historii. W Francji doszło do tragicznego wypadku – dwóch osób zginęło w wyniku potrącenia autobusu, a służby ratunkowe pracują na miejscu. Papież Franciszek rozpoczął długą podróż po Ameryce Łacińskiej, co nastąpiło tuż po operacji na raka płuc, co podkreśla jego determinację i siłę.\n\n**Okazja dla MFO folii: wezwanie do działania**\n\n**Wezwanie do działania:**  MFO folii może zaoferować specjalną linię foliową o wysokiej wytrzymałości i odporności na warunki atmosferyczne, idealną do budowy schronów i osłon w regionach zagrożonych katastrofami naturalnymi, takich jak wypadki drogowe czy trzęsienia ziemi, które są częste w niektórych częściach Ameryki Łacińskiej.  MFO mogłoby promować swoje produkty jako niezawodną i szybką pomoc w zapewnieniu bezpieczeństwa i ochrony w sytuacjach kryzysowych, łącząc potrzebę ochrony z możliwością wsparcia dla potrzebujących.  **Hasło:** \"MFO Folia - Ochrona w kryzysowych sytuacjach, szybko i skutecznie.\"\n"
+      }
+    }
   }
 ]
