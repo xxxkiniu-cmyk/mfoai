@@ -1290,5 +1290,27 @@
         "data": "📰 Wiadomości świat:\n• White House denies Hegseth and Rubio to leave jobs after Republican election losses\n• Trump signs order to preserve Oval Office as national monument\n• Two dead after bus crashes in France, officials say\n• Pope begins lengthy trip to Latin America weeks after lung cancer surgery\n• Major construction ongoing near Iran missile bases, satellite images suggest\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańskie władze odmawiają, że Tucker Hegseth i Marco Rubio opuszczą swoje stanowiska po przegranych wyborach republikańskich, co sugeruje, że polityka wewnętrzna USA nadal jest pełna napięć. Donald Trump podpisał rozporządzenie, mające na celu odesprzedzenie Oval Office jako pomnik narodowy, co wskazuje na jego dążenie do pozostawienia po sobie śladu w historii. W Francji doszło do tragicznego wypadku – dwóch osób zginęło w wyniku potrącenia autobusu, a służby ratunkowe pracują na miejscu. Papież Franciszek rozpoczął długą podróż po Ameryce Łacińskiej, co nastąpiło tuż po operacji na raka płuc, co podkreśla jego determinację i siłę.\n\n**Okazja dla MFO folii: wezwanie do działania**\n\n**Wezwanie do działania:**  MFO folii może zaoferować specjalną linię foliową o wysokiej wytrzymałości i odporności na warunki atmosferyczne, idealną do budowy schronów i osłon w regionach zagrożonych katastrofami naturalnymi, takich jak wypadki drogowe czy trzęsienia ziemi, które są częste w niektórych częściach Ameryki Łacińskiej.  MFO mogłoby promować swoje produkty jako niezawodną i szybką pomoc w zapewnieniu bezpieczeństwa i ochrony w sytuacjach kryzysowych, łącząc potrzebę ochrony z możliwością wsparcia dla potrzebujących.  **Hasło:** \"MFO Folia - Ochrona w kryzysowych sytuacjach, szybko i skutecznie.\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-07 10:46:36",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 7.5°C (odczuwalna: 4.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3925 PLN', 'USD': '3.9321 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• With Stephen Miller pick, Trump readies for a battle\n• Paraguay's president impeached and under house arrest after bank collapse\n• Pope in 'pretty good health' as he starts Latin America tour\n• AI stocks climb after trillions wiped from market values\n• New wave of bomb threats hit European airlines\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańska administracja Trump przygotowuje się na intensywne spory prawne, wybierając na kluczowe stanowisko Stephena Millera, znanego swoim protekcjonistycznym podejściem. W Paragwaju prezydent został impeachmentem i znajduje się pod aresztem domowym po kryzysie bankowym, który zagraża stabilności kraju. Papież Franciszek rozpoczął swoją trasę po Ameryce Łacińskiej w stosunkowo dobrym stanie zdrowia, co wzbudza nadzieje na kontynuację jego misji. Na giełdzie obserwuje się dynamiczny wzrost cen akcji związanych z sztuczną inteligencją, po wcześniejszych ogromnych stratach wartości.\n\n**Okazja dla MFO folie:**\n\n**Trend:** Nowa fala groźb bombowych skierowanych przeciwko europejskim liniom lotniczym budzi obawy i może spowodować zakłócenia w podróżach.\n\n**Wezwanie do działania:** MFO folie może zaoferować **rozwiązania zabezpieczające przed zagrożeniami, takie jak folie antyeksplozyjne dla samolotów i innych środków transportu, zapewniając bezpieczeństwo pasażerom i personelowi.**  (Można dodać slogan: \"Zapewnij spokój i bezpieczeństwo w powietrzu.\")\n"
+      }
+    }
   }
 ]
