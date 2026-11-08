@@ -1312,5 +1312,27 @@
         "data": "📰 Wiadomości świat:\n• With Stephen Miller pick, Trump readies for a battle\n• Paraguay's president impeached and under house arrest after bank collapse\n• Pope in 'pretty good health' as he starts Latin America tour\n• AI stocks climb after trillions wiped from market values\n• New wave of bomb threats hit European airlines\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nAmerykańska administracja Trump przygotowuje się na intensywne spory prawne, wybierając na kluczowe stanowisko Stephena Millera, znanego swoim protekcjonistycznym podejściem. W Paragwaju prezydent został impeachmentem i znajduje się pod aresztem domowym po kryzysie bankowym, który zagraża stabilności kraju. Papież Franciszek rozpoczął swoją trasę po Ameryce Łacińskiej w stosunkowo dobrym stanie zdrowia, co wzbudza nadzieje na kontynuację jego misji. Na giełdzie obserwuje się dynamiczny wzrost cen akcji związanych z sztuczną inteligencją, po wcześniejszych ogromnych stratach wartości.\n\n**Okazja dla MFO folie:**\n\n**Trend:** Nowa fala groźb bombowych skierowanych przeciwko europejskim liniom lotniczym budzi obawy i może spowodować zakłócenia w podróżach.\n\n**Wezwanie do działania:** MFO folie może zaoferować **rozwiązania zabezpieczające przed zagrożeniami, takie jak folie antyeksplozyjne dla samolotów i innych środków transportu, zapewniając bezpieczeństwo pasażerom i personelowi.**  (Można dodać slogan: \"Zapewnij spokój i bezpieczeństwo w powietrzu.\")\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-08 10:52:41",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 1.7°C (odczuwalna: -1.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3925 PLN', 'USD': '3.9321 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• What we know so far after Krakow gun attack\n• Houthis say at least 33 killed in Saudi air strike\n• 'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years\n• Israel's president tasks opposition leader Eisenkot with forming government\n• US offers $20m reward for information about Iran's nuclear programme\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Polsce trwa śledztwo w związku z tragicznym zamachem w Krakowie, a szczegóły okoliczności zdarzenia są wciąż ustalane. W Zatoce Radzińskiej doszło do ataku lotniczego przeprowadzonego przez Arabię Saudyjską, w wyniku którego zginęło co najmniej 33 osoby, jak ogłosiły bojówki Huti. Nowa Zelandia przeszła przez niezwykle napięte wybory, w których mieszkańcy wyrażają wyjątkowo pesymistyczne nastawienie i obniżki poparcia dla rządzącej partii. W Izraelu premier Benjamina Netanjahu powierzył zadanie sformowania nowego rządu liderowi opozycji, Guszawu Eisenkotowi.\n\n**Możliwa okazja dla MFO folie:**\n\n**Nagłówek:** US offers $20m reward for information about Iran's nuclear programme\n\n**Wezwanie do działania (CTA):** \"Zabezpiecz swoją infrastrukturę przed potencjalnymi zagrożeniami.  MFO folie oferują niezawodne i trwałe zabezpieczenie dla krytycznych systemów i obiektów, zapewniając spokój ducha i ochronę przed cyberatakami oraz innymi potencjalnymi incydentami. **Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o rozwiązaniach MFO folie i zabezpieczyć swoją infrastrukturę!**\"\n\n---\n\n**Wyjaśnienie:**  W kontekście informacji o nagrodzie za informacje dotyczące programu nuklearnego Iranu, MFO folie mogłyby oferować rozwiązania zabezpieczające przed cyberatakami, które są potencjalnym zagrożeniem dla systemów informatycznych i infrastruktury krytycznej.  Wezwanie do działania zachęca do kontaktu w celu uzyskania szczegółowych informacji i zabezpieczenia.\n"
+      }
+    }
   }
 ]
