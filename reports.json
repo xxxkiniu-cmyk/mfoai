@@ -1334,5 +1334,27 @@
         "data": "📰 Wiadomości świat:\n• What we know so far after Krakow gun attack\n• Houthis say at least 33 killed in Saudi air strike\n• 'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years\n• Israel's president tasks opposition leader Eisenkot with forming government\n• US offers $20m reward for information about Iran's nuclear programme\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Polsce trwa śledztwo w związku z tragicznym zamachem w Krakowie, a szczegóły okoliczności zdarzenia są wciąż ustalane. W Zatoce Radzińskiej doszło do ataku lotniczego przeprowadzonego przez Arabię Saudyjską, w wyniku którego zginęło co najmniej 33 osoby, jak ogłosiły bojówki Huti. Nowa Zelandia przeszła przez niezwykle napięte wybory, w których mieszkańcy wyrażają wyjątkowo pesymistyczne nastawienie i obniżki poparcia dla rządzącej partii. W Izraelu premier Benjamina Netanjahu powierzył zadanie sformowania nowego rządu liderowi opozycji, Guszawu Eisenkotowi.\n\n**Możliwa okazja dla MFO folie:**\n\n**Nagłówek:** US offers $20m reward for information about Iran's nuclear programme\n\n**Wezwanie do działania (CTA):** \"Zabezpiecz swoją infrastrukturę przed potencjalnymi zagrożeniami.  MFO folie oferują niezawodne i trwałe zabezpieczenie dla krytycznych systemów i obiektów, zapewniając spokój ducha i ochronę przed cyberatakami oraz innymi potencjalnymi incydentami. **Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o rozwiązaniach MFO folie i zabezpieczyć swoją infrastrukturę!**\"\n\n---\n\n**Wyjaśnienie:**  W kontekście informacji o nagrodzie za informacje dotyczące programu nuklearnego Iranu, MFO folie mogłyby oferować rozwiązania zabezpieczające przed cyberatakami, które są potencjalnym zagrożeniem dla systemów informatycznych i infrastruktury krytycznej.  Wezwanie do działania zachęca do kontaktu w celu uzyskania szczegółowych informacji i zabezpieczenia.\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-09 12:19:04",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 1.1°C (odczuwalna: -2.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3873 PLN', 'USD': '3.9199 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Krakow shooting suspect has died in hospital, police say\n• Inside the French drug gangs recruiting children to kill\n• Trump says he was 'kidding' about Dana White press secretary offer\n• At least 34 dead after Europe-bound migrant boat sinks off Senegal \n• Pope delivers veiled rebuke of Milei's austerity measures\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Polsce zatrzymany sprawca strzelaniny w Krakowie zmarł w szpitalu, potwierdziła policja.\n*   Francuskie narkotyckie gangi podejrzewane są o rekrutację dzieci do zabójstw.\n*   Donald Trump zaprzeczył, że rzeczywiście oferował stanowisko doradcy prasowego Danie White'owi, twierdząc, że mówił żartem.\n*   W Senegale zatonął statek przewożący migrantów, a ofiar śmiertelnych potwierdzono liczbą co najmniej 34.\n*   Papież Franciszek wyraził w przemówieniu ukrytą krytykę polityki oszczędnościowej prezydenta Argentyny, Javier Mileiego.\n\n**Możliwa okazja dla MFO (Międzynarodowego Funduszu Dzieci) folii, wezwanie do działania:**\n\n**Wzruszająca historia o ofiarach z tonącego statku z migrantami w Senegale podkreśla potrzebę ochrony dzieci w sytuacjach kryzysowych.**  MFO folii może uruchomić kampanię zbierania funduszy na zapewnienie dzieciom posiłków, schronienia i opieki medycznej, które straciły rodzinę i uciekły przed wojną lub ubóstwem. **Wezwanie do działania:**  \"Daj dzieciom nadzieję. Podaj nam rękę, aby pomóc dzieciom z Senegalu i innych krajów, które znalazły się w trudnej sytuacji.  Przekieruj dar na MFO folii i pomóż nam zapewnić im podstawowe potrzeby.\" (Link do strony MFO folii).\n"
+      }
+    }
   }
 ]
