@@ -1356,5 +1356,27 @@
         "data": "📰 Wiadomości świat:\n• Krakow shooting suspect has died in hospital, police say\n• Inside the French drug gangs recruiting children to kill\n• Trump says he was 'kidding' about Dana White press secretary offer\n• At least 34 dead after Europe-bound migrant boat sinks off Senegal \n• Pope delivers veiled rebuke of Milei's austerity measures\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Polsce zatrzymany sprawca strzelaniny w Krakowie zmarł w szpitalu, potwierdziła policja.\n*   Francuskie narkotyckie gangi podejrzewane są o rekrutację dzieci do zabójstw.\n*   Donald Trump zaprzeczył, że rzeczywiście oferował stanowisko doradcy prasowego Danie White'owi, twierdząc, że mówił żartem.\n*   W Senegale zatonął statek przewożący migrantów, a ofiar śmiertelnych potwierdzono liczbą co najmniej 34.\n*   Papież Franciszek wyraził w przemówieniu ukrytą krytykę polityki oszczędnościowej prezydenta Argentyny, Javier Mileiego.\n\n**Możliwa okazja dla MFO (Międzynarodowego Funduszu Dzieci) folii, wezwanie do działania:**\n\n**Wzruszająca historia o ofiarach z tonącego statku z migrantami w Senegale podkreśla potrzebę ochrony dzieci w sytuacjach kryzysowych.**  MFO folii może uruchomić kampanię zbierania funduszy na zapewnienie dzieciom posiłków, schronienia i opieki medycznej, które straciły rodzinę i uciekły przed wojną lub ubóstwem. **Wezwanie do działania:**  \"Daj dzieciom nadzieję. Podaj nam rękę, aby pomóc dzieciom z Senegalu i innych krajów, które znalazły się w trudnej sytuacji.  Przekieruj dar na MFO folii i pomóż nam zapewnić im podstawowe potrzeby.\" (Link do strony MFO folii).\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-10 11:56:19",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 3.8°C (odczuwalna: 0.5°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3895 PLN', 'USD': '3.9099 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\n• Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say\n• 'There is no justice' - Epstein survivor on how model agency sent her to abuser's home\n• 'Cruise for life' ship seized in Singapore \n• DR Congo sentences 66 soldiers to death for being 'cowards'\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nDonald Trump oskarża FBI o śledztwo w sprawie romansu szefa Nvidia z oskarżoną chińską szpiegostką, co wywołało poważne kontrowersje.  Negocjacje pokojowe między Ukrainą a Rosją wznowiły się z pewną elastycznością, jak poinformowali przedstawiciele USA.  Przetrwaliśmy survivor z agencji modeli Natalie Evans opowiedziała o tym, jak została wysłana przez agencję do domu swojego napastnika, co pokazuje przerażającą historię przemocy.  Ponadto, w Singapurze zajęto statek \"Cruise for life\", a w Demokratycznej Republice Konga 66 żołnierzy zostało skazanych na śmierć za \" tchórzostwo\".\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii mogłoby oferować **ochronę przed ekstremalnymi temperaturami i wilgocią** dla żołnierzy w DR Kongo, którzy w ciężkich warunkach muszą przetrwać. **Wezwanie do działania:** \"Zadbaj o bezpieczeństwo i komfort żołnierzy w DR Kongo - zainwestuj w MFO folie, które zapewnią im ochronę w trudnych warunkach.\"\n"
+      }
+    }
   }
 ]
