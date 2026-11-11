@@ -1378,5 +1378,27 @@
         "data": "📰 Wiadomości świat:\n• Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\n• Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say\n• 'There is no justice' - Epstein survivor on how model agency sent her to abuser's home\n• 'Cruise for life' ship seized in Singapore \n• DR Congo sentences 66 soldiers to death for being 'cowards'\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nDonald Trump oskarża FBI o śledztwo w sprawie romansu szefa Nvidia z oskarżoną chińską szpiegostką, co wywołało poważne kontrowersje.  Negocjacje pokojowe między Ukrainą a Rosją wznowiły się z pewną elastycznością, jak poinformowali przedstawiciele USA.  Przetrwaliśmy survivor z agencji modeli Natalie Evans opowiedziała o tym, jak została wysłana przez agencję do domu swojego napastnika, co pokazuje przerażającą historię przemocy.  Ponadto, w Singapurze zajęto statek \"Cruise for life\", a w Demokratycznej Republice Konga 66 żołnierzy zostało skazanych na śmierć za \" tchórzostwo\".\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii mogłoby oferować **ochronę przed ekstremalnymi temperaturami i wilgocią** dla żołnierzy w DR Kongo, którzy w ciężkich warunkach muszą przetrwać. **Wezwanie do działania:** \"Zadbaj o bezpieczeństwo i komfort żołnierzy w DR Kongo - zainwestuj w MFO folie, które zapewnią im ochronę w trudnych warunkach.\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-11 11:33:16",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 3.1°C (odczuwalna: -1.3°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.3895 PLN', 'USD': '3.9099 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says\n• US House blocks bid to impeach Defence Secretary Pete Hegseth, for now\n• Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor\n• Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal\n• Headquarters of Haitian gang destroyed, El Salvador's president says \n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   USA podejrzewa, że trzy osoby wspierane przez Iran planowały ataki, w tym incydent w RAF Fairford.\n*   Izba Reprezentantów w USA zatrzymała próbę impeachmentu Sekretarza Obrony Pete'a Hegsetha.\n*   Thomas Markle, ojciec Meghan, został ponownie objęty federalną opieką po zdarzeniu związanym z usunięciem monitora na kostce.\n*   Vinícius Júnior wysłał wiadomość wsparcia chłopcu z Sudan, który otrzymał protezy nóg w wyniku reportażu BBC, co wywołało falę zbiórek pieniędzy.\n*   Prezydent Salwadoru ogłosił zniszczenie siedziby gangu w Haiti, wskazując na trwające działania zwalczające przestępczość zorganizowaną.\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii mogłoby wykorzystać tę sytuację w Haiti, oferując wsparcie w postaci folii ochronnych do budowy tymczasowych schronień dla uchodźców i osób potrzebujących pomocy humanitarnej, które mogą być potrzebne po zniszczeniu siedziby gangu.  Wezwanie do działania: **\"Dołącz do MFO folii i pomóż w zapewnieniu bezpieczeństwa i ochrony tym, którzy stracili wszystko.  Wsparcie finansowe lub materiałowe pomoże nam szybko dostarczyć niezbędne folie do Haiti.\"**"
+      }
+    }
   }
 ]
