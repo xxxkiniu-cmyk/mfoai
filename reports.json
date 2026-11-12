@@ -1400,5 +1400,27 @@
         "data": "📰 Wiadomości świat:\n• Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says\n• US House blocks bid to impeach Defence Secretary Pete Hegseth, for now\n• Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor\n• Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal\n• Headquarters of Haitian gang destroyed, El Salvador's president says \n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   USA podejrzewa, że trzy osoby wspierane przez Iran planowały ataki, w tym incydent w RAF Fairford.\n*   Izba Reprezentantów w USA zatrzymała próbę impeachmentu Sekretarza Obrony Pete'a Hegsetha.\n*   Thomas Markle, ojciec Meghan, został ponownie objęty federalną opieką po zdarzeniu związanym z usunięciem monitora na kostce.\n*   Vinícius Júnior wysłał wiadomość wsparcia chłopcu z Sudan, który otrzymał protezy nóg w wyniku reportażu BBC, co wywołało falę zbiórek pieniędzy.\n*   Prezydent Salwadoru ogłosił zniszczenie siedziby gangu w Haiti, wskazując na trwające działania zwalczające przestępczość zorganizowaną.\n\n**Okazja dla MFO folii, wezwanie do działania:**\n\nMFO folii mogłoby wykorzystać tę sytuację w Haiti, oferując wsparcie w postaci folii ochronnych do budowy tymczasowych schronień dla uchodźców i osób potrzebujących pomocy humanitarnej, które mogą być potrzebne po zniszczeniu siedziby gangu.  Wezwanie do działania: **\"Dołącz do MFO folii i pomóż w zapewnieniu bezpieczeństwa i ochrony tym, którzy stracili wszystko.  Wsparcie finansowe lub materiałowe pomoże nam szybko dostarczyć niezbędne folie do Haiti.\"**"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-12 11:58:27",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 5.2°C (odczuwalna: 0.7°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4018 PLN', 'USD': '3.9676 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid\n• New York building collapse kills at least four people\n• Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century\n• Israeli strike on Gaza hospital kills six Palestinians, health ministry says\n• US envoys arrive in Moscow for Ukraine talks with Vladimir Putin\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nUkraina zmaga się z poważnymi przerwami w dostawie prądu i brakiem wody oraz ciepła, spowodowanymi atakami rosyjskich na sieć energetyczną. W Nowym Jorku doszło do zawalenia się budynku, w wyniku czego zginęło co najmniej cztery osoby. Historycznym momentem jest wyłonienie Demokraty Scotta Coloma jako pierwszego czarnoskórego senatora z Mississippi od czasów XIX wieku.  Amerykańskie delegacje dyplomatyczne dotarły do Moskwy, aby porozmawiać z Władimirem Putinem w sprawie dalszego rozwoju sytuacji w Ukrainie.\n\n**Okazja dla MFO Folie:**\n\n**Wezwanie do działania:** \"W obliczu trudnej sytuacji w Ukrainie, MFO Folie oferuje szybką i niezawodną pomoc w dostarczeniu energii w rejonach najbardziej dotkniętych przerwami w dostawie prądu. Wsparcie finansowe lub darowizny pozwolą nam na zakup i dystrybucję folii termoizolacyjnych, zapewniając schronienie i ciepło potrzebującym. Pomóż nam pomóc – wspórz z MFO Folie w ratowaniu życia!\"\n"
+      }
+    }
   }
 ]
