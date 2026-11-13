@@ -1422,5 +1422,27 @@
         "data": "📰 Wiadomości świat:\n• 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid\n• New York building collapse kills at least four people\n• Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century\n• Israeli strike on Gaza hospital kills six Palestinians, health ministry says\n• US envoys arrive in Moscow for Ukraine talks with Vladimir Putin\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nUkraina zmaga się z poważnymi przerwami w dostawie prądu i brakiem wody oraz ciepła, spowodowanymi atakami rosyjskich na sieć energetyczną. W Nowym Jorku doszło do zawalenia się budynku, w wyniku czego zginęło co najmniej cztery osoby. Historycznym momentem jest wyłonienie Demokraty Scotta Coloma jako pierwszego czarnoskórego senatora z Mississippi od czasów XIX wieku.  Amerykańskie delegacje dyplomatyczne dotarły do Moskwy, aby porozmawiać z Władimirem Putinem w sprawie dalszego rozwoju sytuacji w Ukrainie.\n\n**Okazja dla MFO Folie:**\n\n**Wezwanie do działania:** \"W obliczu trudnej sytuacji w Ukrainie, MFO Folie oferuje szybką i niezawodną pomoc w dostarczeniu energii w rejonach najbardziej dotkniętych przerwami w dostawie prądu. Wsparcie finansowe lub darowizny pozwolą nam na zakup i dystrybucję folii termoizolacyjnych, zapewniając schronienie i ciepło potrzebującym. Pomóż nam pomóc – wspórz z MFO Folie w ratowaniu życia!\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-13 11:41:48",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 7.4°C (odczuwalna: 1.0°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4070 PLN', 'USD': '3.9852 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• What we know about the global Microsoft outage\n• Watch: How Microsoft services went down around the world\n• Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy\n• Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks\n• North Korean hackers used fake video calls in $400m crypto hack, says FBI\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nGlobalny przestój w usługach Microsoft, który dotknął użytkowników na całym świecie, nadal jest analizowany, a przyczyny pozostają niejasne. Eks-CEO Nvidia, Jensen Huang, zostanie wezwany do zeznań przed Kongresem w związku z zarzutami o aferę z rzekomym szpiegiem chińskim. Prezydent Zelensky przyjął pozytywnie wiadomość o tym, że Stany Zjednoczone angażują Europę do negocjacji pokojowych dotyczących konfliktu Rosja-Ukraina. FBI ujawniło, że północnokoreańscy hakerzy wykorzystali fałszywe rozmowy wideo, aby dokonać kradzieży kryptowalut wart 400 milionów dolarów.\n\n**Okazja dla MFO folie: (Wezwanie do działania)**\n\n**\"Zabezpiecz swoje dane i systemy przed cyberatakami dzięki naszym wytrzymałym i odpornym na manipulacje foliom ochronnym na ekrany.  Zadbaj o bezpieczeństwo swoich urządzeń i unikaj kosztownych przestojów – zamów już dziś i otrzymaj 10% zniżki na pierwsze zamówienie!\"** \n\n(To wezwanie do działania jest skierowane do osób i firm, które mogą być narażone na cyberataki, a folie ochronne na ekrany mogą stanowić dodatkową warstwę zabezpieczeń).\n"
+      }
+    }
   }
 ]
