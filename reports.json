@@ -1444,5 +1444,27 @@
         "data": "📰 Wiadomości świat:\n• What we know about the global Microsoft outage\n• Watch: How Microsoft services went down around the world\n• Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy\n• Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks\n• North Korean hackers used fake video calls in $400m crypto hack, says FBI\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nGlobalny przestój w usługach Microsoft, który dotknął użytkowników na całym świecie, nadal jest analizowany, a przyczyny pozostają niejasne. Eks-CEO Nvidia, Jensen Huang, zostanie wezwany do zeznań przed Kongresem w związku z zarzutami o aferę z rzekomym szpiegiem chińskim. Prezydent Zelensky przyjął pozytywnie wiadomość o tym, że Stany Zjednoczone angażują Europę do negocjacji pokojowych dotyczących konfliktu Rosja-Ukraina. FBI ujawniło, że północnokoreańscy hakerzy wykorzystali fałszywe rozmowy wideo, aby dokonać kradzieży kryptowalut wart 400 milionów dolarów.\n\n**Okazja dla MFO folie: (Wezwanie do działania)**\n\n**\"Zabezpiecz swoje dane i systemy przed cyberatakami dzięki naszym wytrzymałym i odpornym na manipulacje foliom ochronnym na ekrany.  Zadbaj o bezpieczeństwo swoich urządzeń i unikaj kosztownych przestojów – zamów już dziś i otrzymaj 10% zniżki na pierwsze zamówienie!\"** \n\n(To wezwanie do działania jest skierowane do osób i firm, które mogą być narażone na cyberataki, a folie ochronne na ekrany mogą stanowić dodatkową warstwę zabezpieczeń).\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-14 11:04:32",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Błąd pobierania pogody: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4070 PLN', 'USD': '3.9852 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• What we know about the ground stop and what to do if you're affected\n• US has floated Ukraine ceding Donbas for Nato membership, Zelensky says\n• Trump, Putin and Xi plan historic joint meeting in China next week, White House says\n• 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision\n• Setback for SpaceX Starship rocket's double-catch test\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W związku z \"zatrzymaniem ruchu\" (ground stop) w Stanach Zjednoczonych, osoby dotknięte tą sytuacją powinny sprawdzić szczegóły i zapoznać się z instrukcjami dotyczącymi swoich obowiązków.\n2.  USA rozważały propozycję przekazania Ukrainie terytorium Donbasu w zamian za członkostwo w NATO, jednak prezydent Zelenskyj wyraził swoje wątpliwości.\n3.  Prezydenci USA, Rosji i Chin planują historyczne spotkanie w Chinach w przyszłym tygodniu, co może mieć istotne konsekwencje dla polityki międzynarodowej.\n4.  W dramatycznej sytuacji, wszystkie osoby pokonane przez kolizję statku wycieczkowego w Nowym Orleanie zostały uratowane, co nazwano \"cudem na rzece Missisipi\".\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Trend:** \"Miracle on Mississippi\" - dramatyczna sytuacja ratunkowa po kolizji statku wycieczkowego.\n\n**Możliwość dla MFO folie:** Oferowanie **wodoodpornych folii ochronnych** do zabezpieczenia sprzętu ratunkowego, pojazdów i budynków w rejonach narażonych na powodzie i ekstremalne warunki pogodowe, co może być użyteczne w przypadku przyszłych klęsk żywiołowych.\n\n**Wezwanie do działania:** \"Zabezpiecz swój sprzęt i budynki przed nieprzewidywalnymi warunkami pogodowymi - skontaktuj się z MFO folie i dowiedz się, jak nasze wodoodporne rozwiązania mogą zapewnić bezpieczeństwo i ochronę.\"\n"
+      }
+    }
   }
 ]
