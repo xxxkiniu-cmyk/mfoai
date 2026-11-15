@@ -1466,5 +1466,27 @@
         "data": "📰 Wiadomości świat:\n• What we know about the ground stop and what to do if you're affected\n• US has floated Ukraine ceding Donbas for Nato membership, Zelensky says\n• Trump, Putin and Xi plan historic joint meeting in China next week, White House says\n• 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision\n• Setback for SpaceX Starship rocket's double-catch test\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W związku z \"zatrzymaniem ruchu\" (ground stop) w Stanach Zjednoczonych, osoby dotknięte tą sytuacją powinny sprawdzić szczegóły i zapoznać się z instrukcjami dotyczącymi swoich obowiązków.\n2.  USA rozważały propozycję przekazania Ukrainie terytorium Donbasu w zamian za członkostwo w NATO, jednak prezydent Zelenskyj wyraził swoje wątpliwości.\n3.  Prezydenci USA, Rosji i Chin planują historyczne spotkanie w Chinach w przyszłym tygodniu, co może mieć istotne konsekwencje dla polityki międzynarodowej.\n4.  W dramatycznej sytuacji, wszystkie osoby pokonane przez kolizję statku wycieczkowego w Nowym Orleanie zostały uratowane, co nazwano \"cudem na rzece Missisipi\".\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Trend:** \"Miracle on Mississippi\" - dramatyczna sytuacja ratunkowa po kolizji statku wycieczkowego.\n\n**Możliwość dla MFO folie:** Oferowanie **wodoodpornych folii ochronnych** do zabezpieczenia sprzętu ratunkowego, pojazdów i budynków w rejonach narażonych na powodzie i ekstremalne warunki pogodowe, co może być użyteczne w przypadku przyszłych klęsk żywiołowych.\n\n**Wezwanie do działania:** \"Zabezpiecz swój sprzęt i budynki przed nieprzewidywalnymi warunkami pogodowymi - skontaktuj się z MFO folie i dowiedz się, jak nasze wodoodporne rozwiązania mogą zapewnić bezpieczeństwo i ochronę.\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-15 11:38:24",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 5.8°C (odczuwalna: 0.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4070 PLN', 'USD': '3.9852 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• US has floated Ukraine ceding Donbas for Nato membership, Zelensky says\n• Copper wire upgrade behind US flight suspension, transport secretary says\n• Judge temporarily blocks Trump from closing Washington DC golf course for renovation\n• Fifth Canadian soldier dies from injuries caused by large fire at military base\n• Three men sentenced to death in Jordan over fatal church mass shooting\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nStany Zjednoczone mogły zaproponować Ukrainie ustępstwo w sprawie Donbasu w zamian za członkostwo w NATO, o czym poinformował prezydent Zelenskyj. Amerykański sekretarz transportu poinformował o przyczynie zawieszenia lotów - modernizacją przewodów miedzianych. Sąd tymczasowo zablokował decyzję Donalda Trumpa o zamknięciu jego golfowego pola w Waszyngtonie na remont. W Jordanii trzech mężczyzn zostało skazanych na śmierć za zabójstwo popełnione podczas strzelaniny na mszy w kościele.\n\n**Okazja dla MFO Folie: (Wezwanie do działania)**\n\n**Nagłówek:** \"Piąty kanadyjski żołnierz zmarł w wyniku pożaru na bazie wojskowej\"\n\n**Opis:** Tragiczny pożar na bazie wojskowej w Kanadzie spowodował śmierć żołnierza i zmusił do ewakuacji. MFO Folie może zaoferować **odporne na ogień folie termokurczliwe** do zabezpieczania kabli i przewodów w bazach wojskowych i infrastrukturze militarnym, zapewniając bezpieczeństwo i minimalizując ryzyko pożarów.\n\n**Wezwanie do działania:** \"Zabezpiecz infrastrukturę wojskową przed pożarami dzięki naszym odpornym na ogień foliom termokurczliwym. Skontaktuj się z nami już dziś, aby uzyskać więcej informacji i zamówić folie dostosowane do Twoich potrzeb!\"\n"
+      }
+    }
   }
 ]
