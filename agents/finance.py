@@ -23,15 +23,17 @@ def send_notification(finance_info):
     topic = os.getenv("NTFY_TOPIC", "mfoai_bot_alerts")
     text = f"💶 EUR: {finance_info.get('EUR')}\n💵 USD: {finance_info.get('USD')}"
     try:
-        requests.post(
+        response = requests.post(
             f"https://ntfy.sh/{topic}",
             data=f"📊 Kursy walut (NBP):\n{text}".encode("utf-8"),
             headers={
                 "Title": "MFO.ai - Finance",
                 "Priority": "low",
                 "Tags": "chart_with_upwards_trend,moneybag"
-            }
+            },
+            timeout=10,
         )
+        response.raise_for_status()
     except Exception as e:
         print(f"Błąd wysyłania ntfy: {e}")
 

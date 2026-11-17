@@ -68,15 +68,17 @@ def get_motivation():
 def send_notification(message):
     topic = os.getenv("NTFY_TOPIC", "mfoai_bot_alerts")
     try:
-        requests.post(
+        response = requests.post(
             f"https://ntfy.sh/{topic}",
             data=f"💪 Motywacja dnia:\n{message}".encode("utf-8"),
             headers={
                 "Title": "MFO.ai - Motivator",
                 "Priority": "default",
                 "Tags": "fire,muscle"
-            }
+            },
+            timeout=10,
         )
+        response.raise_for_status()
     except Exception as e:
         print(f"Błąd wysyłania ntfy: {e}")
 
