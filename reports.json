@@ -1532,5 +1532,27 @@
         "data": "📰 Wiadomości świat:\n• Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine\n• Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72\n• Nvidia partner Megaspeed being investigated by US government over chip exports\n• Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed\n• Imran Khan seeks urgent medical care fearing he 'may not return alive'\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nRosja odniosła porażkę w wyniku ataku Ukrainy na most w Krymie, a prezydent Zelenskyj określił go jako „niezwykły”. Ukraina oskarża Rosję o celowe atakowanie operacji ratunkowych, co doprowadziło do śmierci 72 osób w wyniku tzw. „podwójnego uderzenia”. Amerykański rząd prowadzi dochodzenie w sprawie firmy Megaspeed, partnera Nvidia, w związku z nielegalnym eksportem chipów. W Pakistanie, kobieta, która przeszła przez gangraj w 2002 roku, wyraziła rozczarowanie zwolnieniem sprawców. Ponadto, były premier pakistański Imran Khan prosi o pilną opiekę medyczną, obawiając się o swoje życie.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Problem:** Rosja wykorzystuje most w Krymie jako strategiczną infrastrukturę, narażając ją na ataki.\n**Rozwiązanie:** MFO folie, odporne na warunki atmosferyczne i uszkodzenia, mogą być wykorzystane do wzmocnienia i ochrony tego mostu, zapewniając jego trwałość i bezpieczeństwo.\n**Wezwanie do działania:** \"Zabezpiecz Krymski Most! Zainwestuj w MFO folie, które zapewnią trwałą ochronę przed atakami i pomogą utrzymać ważną infrastrukturę krymską.\"\n\n---\n\nCzy chcesz, żebym rozwinął ten punkt lub stworzył inne przykłady?\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-18 12:27:50",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Dyscyplina to most między celami a ich osiągnięciem.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 8.9°C (odczuwalna: 5.4°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4089 PLN', 'USD': '4.0170 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal\n• Nvidia says it won't reinstate Huang as it reports soaring sales\n• Rubio says US not 'under systemic attack' after series of tech outages\n• Democrats win Alaska Senate race two weeks after midterms counting began\n• Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Spotkanie Trumpa i Xi to ważny moment, ale dla Chin pojawia się problem związany z aferą dotyczącą firmy Nvidia, która dostarcza kluczowy sprzęt do rozwoju sztucznej inteligencji.\n*   Nvidia odrzuciła ponowne powołanie Huang'a na stanowisko, mimo rekordowo wysokich zysków, co sugeruje trudności w zarządzaniu i potencjalne ryzyko dla firmy.\n*   Amerykański senator Rubio zaprzecza, że USA są celem systematycznych ataków cybernetycznych po serii niedawnych awarii technicznych.\n*   Partia Demokratyczna odniosła zwycięstwo w wyścigu na senatora w Alaskie, pomimo tego, że liczenie głosów trwało już dwa tygodnie po wyborach.\n*   Ukraina odniosła sukces w ataku na most krymski, a prezydent Zelenskyj określił go jako \"niezwykły\".\n\n**Możliwa okazja dla MFO folii:**\n\n**Wezwanie do działania:** \"Zabezpiecz swoją infrastrukturę IT przed cyberatakami! Nasze MFO folie zapewniają niezawodne i trwałe zabezpieczenie danych, chroniąc przed potencjalnymi zagrożeniami, jak te, które dotknęły USA. Zainwestuj w bezpieczeństwo - skontaktuj się z nami już dziś, aby dowiedzieć się więcej!\"\n"
+      }
+    }
   }
 ]
