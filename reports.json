@@ -1554,5 +1554,27 @@
         "data": "📰 Wiadomości świat:\n• As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal\n• Nvidia says it won't reinstate Huang as it reports soaring sales\n• Rubio says US not 'under systemic attack' after series of tech outages\n• Democrats win Alaska Senate race two weeks after midterms counting began\n• Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Spotkanie Trumpa i Xi to ważny moment, ale dla Chin pojawia się problem związany z aferą dotyczącą firmy Nvidia, która dostarcza kluczowy sprzęt do rozwoju sztucznej inteligencji.\n*   Nvidia odrzuciła ponowne powołanie Huang'a na stanowisko, mimo rekordowo wysokich zysków, co sugeruje trudności w zarządzaniu i potencjalne ryzyko dla firmy.\n*   Amerykański senator Rubio zaprzecza, że USA są celem systematycznych ataków cybernetycznych po serii niedawnych awarii technicznych.\n*   Partia Demokratyczna odniosła zwycięstwo w wyścigu na senatora w Alaskie, pomimo tego, że liczenie głosów trwało już dwa tygodnie po wyborach.\n*   Ukraina odniosła sukces w ataku na most krymski, a prezydent Zelenskyj określił go jako \"niezwykły\".\n\n**Możliwa okazja dla MFO folii:**\n\n**Wezwanie do działania:** \"Zabezpiecz swoją infrastrukturę IT przed cyberatakami! Nasze MFO folie zapewniają niezawodne i trwałe zabezpieczenie danych, chroniąc przed potencjalnymi zagrożeniami, jak te, które dotknęły USA. Zainwestuj w bezpieczeństwo - skontaktuj się z nami już dziś, aby dowiedzieć się więcej!\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-19 12:18:59",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Małe postępy każdego dnia sumują się w wielki sukces.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Błąd pobierania pogody: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4165 PLN', 'USD': '4.0176 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls\n• Dozens missing after boat carrying 100 migrants sinks off Senegal's coast\n• Anthropic raises $81bn in record-breaking stock market debut\n• Van Gogh painting sells for record $190.4m after row over its Nazi history\n• Crimean Bridge attacked again, Russia says\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Chiński prezydent Xi Jinping doświadcza znaczącego sukcesu dyplomatycznego, co jest ważnym wydarzeniem na arenie międzynarodowej, jednak wiąże się to z potencjalnymi wyzwaniami i ryzykiem.\n*   W Senegale zatonął statek przewożący 100 migrantów, a do tej pory zaginęło kilkadziesiąt osób, co świadczy o tragicznych losach osób próbujących uciec przed trudnościami.\n*   Spółka Anthropic zanotowała historyczny debiut na giełdzie, zebrawszy rekordowe 81 miliardów dolarów, co wskazuje na rosnący entuzjazm inwestorów w sektorze sztucznej inteligencji.\n*   Na aukcji sprzedano obraz Vincenta van Gogha za rekordową kwotę 190,4 miliona dolarów, co wywołało dyskusje na temat jego historii i związku z nazistami.\n*   Krymowski most, strategiczny element infrastruktury Rosji, został ponownie zaatakowany, co pogłębia napięcia w regionie.\n\n**Możliwa okazja dla MFO folie:**\n\n**Wezwanie do działania:** \"Zainwestuj w stabilność i bezpieczeństwo. Nasze MFO folie oferują bezpieczne i rentowne możliwości inwestycyjne w infrastrukturę krytyczną, takie jak mosty i strategiczne transporty, minimalizując ryzyko związane z konfliktami i chaosem geopolitycznym. Zadbaj o przyszłość swoich oszczędności!\""
+      }
+    }
   }
 ]
