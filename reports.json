@@ -1576,5 +1576,27 @@
         "data": "📰 Wiadomości świat:\n• This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls\n• Dozens missing after boat carrying 100 migrants sinks off Senegal's coast\n• Anthropic raises $81bn in record-breaking stock market debut\n• Van Gogh painting sells for record $190.4m after row over its Nazi history\n• Crimean Bridge attacked again, Russia says\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Chiński prezydent Xi Jinping doświadcza znaczącego sukcesu dyplomatycznego, co jest ważnym wydarzeniem na arenie międzynarodowej, jednak wiąże się to z potencjalnymi wyzwaniami i ryzykiem.\n*   W Senegale zatonął statek przewożący 100 migrantów, a do tej pory zaginęło kilkadziesiąt osób, co świadczy o tragicznych losach osób próbujących uciec przed trudnościami.\n*   Spółka Anthropic zanotowała historyczny debiut na giełdzie, zebrawszy rekordowe 81 miliardów dolarów, co wskazuje na rosnący entuzjazm inwestorów w sektorze sztucznej inteligencji.\n*   Na aukcji sprzedano obraz Vincenta van Gogha za rekordową kwotę 190,4 miliona dolarów, co wywołało dyskusje na temat jego historii i związku z nazistami.\n*   Krymowski most, strategiczny element infrastruktury Rosji, został ponownie zaatakowany, co pogłębia napięcia w regionie.\n\n**Możliwa okazja dla MFO folie:**\n\n**Wezwanie do działania:** \"Zainwestuj w stabilność i bezpieczeństwo. Nasze MFO folie oferują bezpieczne i rentowne możliwości inwestycyjne w infrastrukturę krytyczną, takie jak mosty i strategiczne transporty, minimalizując ryzyko związane z konfliktami i chaosem geopolitycznym. Zadbaj o przyszłość swoich oszczędności!\""
       }
     }
+  },
+  {
+    "timestamp": "2026-11-20 12:19:21",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 4.6°C (odczuwalna: -0.3°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4559 PLN', 'USD': '4.0613 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• UK and EU to agree youth mobility scheme, BBC understands\n• Three Kyiv bridges hit during major Russian missile attack\n• 'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis\n• Nearly 600 women killed in South Africa within three months\n• White House removes cyber-security chief after series of tech outages\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Wielka Brytania i Unia Europejska osiągnęły porozumienie dotyczące programu mobilności młodzieży, co umożliwi młody milionerom z obu stron granic swobodne podróżowanie i pracę.\n*   W Rosji przeprowadzono szeroką falę ataków rakietowych na Kijów, w wyniku których zniszczono trzy mosty.\n*   W Jemenie, pod ostrzałem rebeliantów Houthi, trwa oblężenie miasta, a mieszkańcy próbują utrzymać normalne życie, często ukrywając prawdziwy charakter sytuacji.\n*   W południowej Afryce liczba zabójstw kobiet wzrosła dramatycznie w ciągu ostatnich trzech miesięcy, stanowiąc poważny problem społeczny.\n*   W Białym House usunięto szefa agencji cyberbezpieczeństwa po serii problemów technicznych, które dotknęły administrację.\n\n**Okazja dla MFO folie:**\n\n**Wezwanie do działania:** \"W obliczu rosnącego zagrożenia cyberatakami, MFO folie mogą oferować zabezpieczone, wytrzymałe i łatwe w montażu rozwiązania do ochrony infrastruktury krytycznej, budynków rządowych i systemów telekomunikacyjnych, zapewniając bezpieczeństwo i odporność na cyberzagrożenia.\"\n"
+      }
+    }
   }
 ]
