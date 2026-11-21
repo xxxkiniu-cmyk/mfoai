@@ -1598,5 +1598,28 @@
         "data": "📰 Wiadomości świat:\n• UK and EU to agree youth mobility scheme, BBC understands\n• Three Kyiv bridges hit during major Russian missile attack\n• 'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis\n• Nearly 600 women killed in South Africa within three months\n• White House removes cyber-security chief after series of tech outages\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Wielka Brytania i Unia Europejska osiągnęły porozumienie dotyczące programu mobilności młodzieży, co umożliwi młody milionerom z obu stron granic swobodne podróżowanie i pracę.\n*   W Rosji przeprowadzono szeroką falę ataków rakietowych na Kijów, w wyniku których zniszczono trzy mosty.\n*   W Jemenie, pod ostrzałem rebeliantów Houthi, trwa oblężenie miasta, a mieszkańcy próbują utrzymać normalne życie, często ukrywając prawdziwy charakter sytuacji.\n*   W południowej Afryce liczba zabójstw kobiet wzrosła dramatycznie w ciągu ostatnich trzech miesięcy, stanowiąc poważny problem społeczny.\n*   W Białym House usunięto szefa agencji cyberbezpieczeństwa po serii problemów technicznych, które dotknęły administrację.\n\n**Okazja dla MFO folie:**\n\n**Wezwanie do działania:** \"W obliczu rosnącego zagrożenia cyberatakami, MFO folie mogą oferować zabezpieczone, wytrzymałe i łatwe w montażu rozwiązania do ochrony infrastruktury krytycznej, budynków rządowych i systemów telekomunikacyjnych, zapewniając bezpieczeństwo i odporność na cyberzagrożenia.\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-21 11:54:06",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 5.5°C (odczuwalna: -0.2°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "ERROR",
+        "data": "{'ok': False, 'error': 'HTTP 500'}",
+        "error": "HTTP 500"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Tech stock sell-off drags markets down as Anthropic shares slide\n• Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend\n• Fight over fossil fuels leaves COP31 climate talks in deadlock\n• FBI reportedly investigating apparent hack of its criminal database\n• French police officers sentenced for beating of music producer Michel Zecler\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nGlobalne rynki finansowe spadły po dużym obrocie papierami wartościowymi z sektora technologii, w szczególności ze względu na spadek cen akcji Anthropic. Prezydent Ukrainy Wołodymyr Zełenski potępił Donalda Trumpa za nazywanie Władimira Putina \"przyjacielem\", twierdząc, że jest \"zabójcą\".  Negocjacje na COP31, konferencji klimatycznej w Dubaju, utknęły w martwym punkcie z powodu sporów dotyczących ropy naftowej i gazu.  Amerykańskie służby specjalne prowadzą dochodzenie w sprawie potencjalnego włamania do bazy danych FBI.\n\n**Okazja dla MFO Folie:**\n\nW kontekście rosnącej świadomości zagrożeń cybernetycznych i potrzeb związanych z bezpieczeństwem danych, MFO Folie może zaoferować **rozwiązania zabezpieczające i chroniące wrażliwe informacje, w tym bazy danych i systemy informatyczne**. Wezwanie do działania: **\"Zabezpiecz swoją infrastrukturę! MFO Folie oferuje innowacyjne rozwiązania chroniące przed cyberatakami i zapewniające poufność danych. Skontaktuj się z nami już dziś, aby dowiedzieć się, jak możemy wzmocnić Twoje bezpieczeństwo.\"**\n"
+      }
+    }
   }
 ]
