@@ -1643,5 +1643,27 @@
         "data": "📰 Wiadomości świat:\n• South Korea education minister resigns over exam cheating scandal\n• Russia-bound ship still on fire after attack in Gulf of Finland\n• Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out\n• Three killed and dozens missing after fire at Indonesian factory\n• Italian jeweller and businessman Paolo Bulgari dies aged 89\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nW Korei Południowej minister edukacji złożyła rezygnację w związku z ogromnym skandale związanym z plagiatami na egzaminach, co podważa system edukacji. W Gulf of Finland trwają starania, by ugasić pożar na statku zmierzającym do Rosji, który został zaatakowany. W Meksyku zatrzymano znanego narkobaronia, który znajdował się na liście 10 najbardziej poszukiwanych osób przez FBI. Tragiczna sytuacja w Indonezji, gdzie pożar w fabryce pochłonął życie trójki osób, a setki zaginęło.  Ponadto zmarł Paolo Bulgari, słynny włoski jubiler i biznesmen.\n\n**Okazja dla MFO folie:**\n\n**Nagłówek:** \"Tragedia w fabryce na Bali: Potrzeba szybkiej reakcji i bezpiecznego transportu sprzętu gaśniczego\"\n\n**Wezwanie do działania:** \"W obliczu tragedii w fabryce na Bali, MFO Folie oferuje szybką i niezawodną dostawę wysokiej jakości folii termoizolacyjnych i ochronnych, które pomogą w zabezpieczeniu i stabilizacji zniszczonych budynków, zapewniając bezpieczeństwo i komfort ofiarom oraz pracownikom. **Zadzwoń już dziś, aby umówić się na dostawę i wesprzeć działania ratownicze!**\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-23 13:51:08",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Dyscyplina to most między celami a ich osiągnięciem.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 2.8°C (odczuwalna: -2.5°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4556 PLN', 'USD': '4.0601 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Russian warship hit by Ukrainian drones in Libya, Zelensky says\n• Longest-ever UN climate talks end with no deal as deep divisions exposed\n• Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says\n• Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say\n• Flights and train services cancelled in Belgium due to strike\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W Libii, rosyjski okręt został zaatakowany przez drony ukraińskie, co potwierdził prezydent Zelenskyj, ilustrując rozszerzenie konfliktu rosyjsko-ukraińskiego poza Ukrainę.\n2.  Długie i napięte negocjacje na temat zmian klimatycznych w ONZ zakończyły się bez osiągnięcia porozumienia, ujawniając głębokie podziały między państwami.\n3.  Organizacje humanitarne, takie jak Oxfam, alarmują, że izraelskie ataki na Gazę przekształciły ten obszar w \"toksyczną pustynię\", podkreślając tragiczne konsekwencje konfliktu.\n4.  W Ukrainie, 7-letni chłopiec został uratowany z gruzów po rosyjskim ostrzale, co pokazuje okrutną rzeczywistość wojny i determinację ratowników.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Problem:**  Wypały i zniszczenia w wyniku konfliktów (np. w Ukrainie, Gazie) generują ogromne ilości gruzu i ruin, wymagające szybkiego i bezpiecznego oczyszczenia i utwardzenia terenu.\n\n**Rozwiązanie:** MFO folie (np. folie budowlane, folie ochronne) mogą być wykorzystane do szybkiego stworzenia prowizorycznych zabezpieczeń, zabezpieczenia terenów przed osuwaniem się, izolacji zniszczonych budynków, tworzenia tymczasowych dróg dojazdowych dla służb ratunkowych oraz zabezpieczenia gruzu przed dalszymi zniszczeniami.\n\n**Wezwanie do działania:** \"W obliczu ogromnych potrzeb pomocowych, MFO folie mogą znacząco przyspieszyć proces odbudowy i zapewnić bezpieczeństwo ofiarom konfliktów. Wspomóż nas w dostarczeniu MFO folii do regionów dotkniętych tragedią - wspólnie możemy pomóc w odbudowie życia!\"\n"
+      }
+    }
   }
 ]
