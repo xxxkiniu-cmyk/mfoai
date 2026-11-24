@@ -1665,5 +1665,27 @@
         "data": "📰 Wiadomości świat:\n• Russian warship hit by Ukrainian drones in Libya, Zelensky says\n• Longest-ever UN climate talks end with no deal as deep divisions exposed\n• Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says\n• Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say\n• Flights and train services cancelled in Belgium due to strike\n\n🤖 Podsumowanie AI:\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n1.  W Libii, rosyjski okręt został zaatakowany przez drony ukraińskie, co potwierdził prezydent Zelenskyj, ilustrując rozszerzenie konfliktu rosyjsko-ukraińskiego poza Ukrainę.\n2.  Długie i napięte negocjacje na temat zmian klimatycznych w ONZ zakończyły się bez osiągnięcia porozumienia, ujawniając głębokie podziały między państwami.\n3.  Organizacje humanitarne, takie jak Oxfam, alarmują, że izraelskie ataki na Gazę przekształciły ten obszar w \"toksyczną pustynię\", podkreślając tragiczne konsekwencje konfliktu.\n4.  W Ukrainie, 7-letni chłopiec został uratowany z gruzów po rosyjskim ostrzale, co pokazuje okrutną rzeczywistość wojny i determinację ratowników.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**Problem:**  Wypały i zniszczenia w wyniku konfliktów (np. w Ukrainie, Gazie) generują ogromne ilości gruzu i ruin, wymagające szybkiego i bezpiecznego oczyszczenia i utwardzenia terenu.\n\n**Rozwiązanie:** MFO folie (np. folie budowlane, folie ochronne) mogą być wykorzystane do szybkiego stworzenia prowizorycznych zabezpieczeń, zabezpieczenia terenów przed osuwaniem się, izolacji zniszczonych budynków, tworzenia tymczasowych dróg dojazdowych dla służb ratunkowych oraz zabezpieczenia gruzu przed dalszymi zniszczeniami.\n\n**Wezwanie do działania:** \"W obliczu ogromnych potrzeb pomocowych, MFO folie mogą znacząco przyspieszyć proces odbudowy i zapewnić bezpieczeństwo ofiarom konfliktów. Wspomóż nas w dostarczeniu MFO folii do regionów dotkniętych tragedią - wspólnie możemy pomóc w odbudowie życia!\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-24 14:24:12",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Skup się na procesie, a wyniki przyjdą same.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 2.6°C (odczuwalna: -1.0°C) | Opady: 0.1 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4633 PLN', 'USD': '4.0819 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\n• What Jensen Huang's return teaches China's Xi about Trump\n• Nato chief vows defence against space threat after Russian nuclear satellite reports\n• Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book\n• India's 'cockroach' party leader says he was stopped from flying to UK\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie nagłówków BBC w 4 zdaniach:\n\nDonald Trump spotyka się z krytyką za twierdzenie, że \"przekonał\" Jensen Huang do powrotu na stanowisko dyrektora generalnego Nvidia, co wzbudziło pytania o jego wpływy i relacje z biznesem.  Nagłówki wskazują, że sprawa ta może być lekcją dla Xi Jinpinga w kontekście relacji Chin z USA. Sekretarz generalny NATO obiecał wzmocnienie obrony przed zagrożeniami w przestrzeni kosmicznej, w odpowiedzi na raporty dotyczące rosyjskich satelitów nuklearnych.  Francuska pisarka Gisèle Pelicot doświadczyła publicznego upokorzenia po tym, jak jej nagość została wykorzystana w mediach do promocji książki.\n\n**Okazja dla MFO folii:**\n\n**Wezwanie do działania:** MFO folii może zaoferować **bezpieczne i poufne rozwiązania do przechowywania i zarządzania wrażliwymi zdjęciami i danymi osobistymi**, podkreślając potrzebę ochrony prywatności i bezpieczeństwa w erze mediów społecznościowych i cyberprzestępczości. Mogą również promować **edukację na temat zagrożeń związanych z udostępnianiem zdjęć bez zgody**, zachęcając do odpowiedzialnego korzystania z technologii i przestrzegania prawa.  To pokazuje, że MFO folii rozumie wyzwania związane z ochroną prywatności i oferuje skuteczne narzędzie do ich rozwiązania.\n"
+      }
+    }
   }
 ]
