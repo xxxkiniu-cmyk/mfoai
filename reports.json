@@ -1687,5 +1687,27 @@
         "data": "📰 Wiadomości świat:\n• Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\n• What Jensen Huang's return teaches China's Xi about Trump\n• Nato chief vows defence against space threat after Russian nuclear satellite reports\n• Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book\n• India's 'cockroach' party leader says he was stopped from flying to UK\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie nagłówków BBC w 4 zdaniach:\n\nDonald Trump spotyka się z krytyką za twierdzenie, że \"przekonał\" Jensen Huang do powrotu na stanowisko dyrektora generalnego Nvidia, co wzbudziło pytania o jego wpływy i relacje z biznesem.  Nagłówki wskazują, że sprawa ta może być lekcją dla Xi Jinpinga w kontekście relacji Chin z USA. Sekretarz generalny NATO obiecał wzmocnienie obrony przed zagrożeniami w przestrzeni kosmicznej, w odpowiedzi na raporty dotyczące rosyjskich satelitów nuklearnych.  Francuska pisarka Gisèle Pelicot doświadczyła publicznego upokorzenia po tym, jak jej nagość została wykorzystana w mediach do promocji książki.\n\n**Okazja dla MFO folii:**\n\n**Wezwanie do działania:** MFO folii może zaoferować **bezpieczne i poufne rozwiązania do przechowywania i zarządzania wrażliwymi zdjęciami i danymi osobistymi**, podkreślając potrzebę ochrony prywatności i bezpieczeństwa w erze mediów społecznościowych i cyberprzestępczości. Mogą również promować **edukację na temat zagrożeń związanych z udostępnianiem zdjęć bez zgody**, zachęcając do odpowiedzialnego korzystania z technologii i przestrzegania prawa.  To pokazuje, że MFO folii rozumie wyzwania związane z ochroną prywatności i oferuje skuteczne narzędzie do ich rozwiązania.\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-25 13:43:01",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Nie musisz być wielki, żeby zacząć, ale musisz zacząć, żeby być wielkim.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 2.6°C (odczuwalna: -0.7°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4809 PLN', 'USD': '4.0966 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Russia's own figures show it has lost nearly 500,000 people in Ukraine war\n• My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated\n• US attorney general dodges questions about Nvidia investigation\n• Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth\n• Thomas Markle charged in US for possessing child sex abuse images\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nRosyjskie źródła szacują, że straty rosyjskiej armii w Ukrainie wynoszą blisko 500 000 żołnierzy, co sugeruje znacznie większe straty niż oficjalnie komunikowane przez Moskwę. Relacja z Ukrainy opowiada o tragicznych zdarzeniach, w których rodzina ofiar obwinia ukraińskie wojska, przy czym sytuacja jest znacznie bardziej złożona. Amerykański prokurator generalny unika odpowiedzi na pytania dotyczące śledztwa w sprawie Nvidia, co budzi kontrowersje. Naukowcy ujawnią szczegółowe zdjęcia asteroidy, która została celowo uderzona, w celu przetestowania możliwości obrony Ziemi.\n\n**Okazja dla MFO folie (Materiałów Funkcjonalnych Ochronnych) i wezwanie do działania:**\n\n**Wezwanie do działania:** Firmy produkujące MFO folie mogą oferować rozwiązania do zabezpieczenia infrastruktury krytycznej, budynków wojskowych i pojazdów, wykorzystywanych w operacjach humanitarnych i obronnych w Ukrainie.  **Wezwanie:** \"Zabezpiecz Ukrainę przed zagrożeniami! MFO folie zapewniają niezawodne osłony dla życia i mienia w trudnych warunkach – skontaktuj się z MFO folie i dowiedz się, jak możemy pomóc.\"\n"
+      }
+    }
   }
 ]
