@@ -1709,5 +1709,27 @@
         "data": "📰 Wiadomości świat:\n• Russia's own figures show it has lost nearly 500,000 people in Ukraine war\n• My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated\n• US attorney general dodges questions about Nvidia investigation\n• Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth\n• Thomas Markle charged in US for possessing child sex abuse images\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\nRosyjskie źródła szacują, że straty rosyjskiej armii w Ukrainie wynoszą blisko 500 000 żołnierzy, co sugeruje znacznie większe straty niż oficjalnie komunikowane przez Moskwę. Relacja z Ukrainy opowiada o tragicznych zdarzeniach, w których rodzina ofiar obwinia ukraińskie wojska, przy czym sytuacja jest znacznie bardziej złożona. Amerykański prokurator generalny unika odpowiedzi na pytania dotyczące śledztwa w sprawie Nvidia, co budzi kontrowersje. Naukowcy ujawnią szczegółowe zdjęcia asteroidy, która została celowo uderzona, w celu przetestowania możliwości obrony Ziemi.\n\n**Okazja dla MFO folie (Materiałów Funkcjonalnych Ochronnych) i wezwanie do działania:**\n\n**Wezwanie do działania:** Firmy produkujące MFO folie mogą oferować rozwiązania do zabezpieczenia infrastruktury krytycznej, budynków wojskowych i pojazdów, wykorzystywanych w operacjach humanitarnych i obronnych w Ukrainie.  **Wezwanie:** \"Zabezpiecz Ukrainę przed zagrożeniami! MFO folie zapewniają niezawodne osłony dla życia i mienia w trudnych warunkach – skontaktuj się z MFO folie i dowiedz się, jak możemy pomóc.\"\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-26 13:21:08",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Błąd pobierania pogody: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4802 PLN', 'USD': '4.0835 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• German boat dealer suspected of supplying Channel smuggling gangs, BBC finds\n• Watch: BBC confronts German man suspected of supplying migrant gangs with small boats\n• Myanmar refuses to comply with parts of ICJ genocide ruling\n• Desperate appeals from women on death row in Iran after protests\n• Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Niemczech śledztwo ujawnia, że dealer łodzi jest podejrzany o dostarczanie małych łodzi do grup przemytników migrantów przez kanał La Manche.\n*   BBC nagrała spotkanie, w którym przedstawiono niemieckiego mężczyznę, który jest podejrzany o zaangażowanie w tę działalność, a także ujawniono dowody na jego współpracę.\n*   Mjanma odmawia pełnego przestrzegania części orzeczenia Międzynarodowego Trybunału Sprawiedliwości dotyczącego zbrodni genocyjne.\n*   Kobiety na śmierci w Iranie składają desperackie apele o pomoc po tłumieniu protestów, co budzi międzynarodową oburzenie.\n*   W pobliżu Ibizy zatopiony został niemiecki tankowiec przewożący do 7 000 ton paliwa, w wyniku czego zginęło jedna osoba.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**W przypadku zatopionego tankowca i ryzyka dla życia ludzi na morzu, MFO mogłoby wykorzystać swoje folie ratunkowe do zorganizowania akcji humanitarnych, oferując pomoc i zabezpieczając osoby potrzebujące.**  **Wezwanie do działania: „Dołącz do MFO w pomocy ofiarom tego tragicznego wypadku!  Wspólnie możemy zapewnić bezpieczeństwo i pomoc potrzebującym.”**\n"
+      }
+    }
   }
 ]
