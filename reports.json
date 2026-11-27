@@ -1731,5 +1731,27 @@
         "data": "📰 Wiadomości świat:\n• German boat dealer suspected of supplying Channel smuggling gangs, BBC finds\n• Watch: BBC confronts German man suspected of supplying migrant gangs with small boats\n• Myanmar refuses to comply with parts of ICJ genocide ruling\n• Desperate appeals from women on death row in Iran after protests\n• Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one\n\n🤖 Podsumowanie AI:\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   W Niemczech śledztwo ujawnia, że dealer łodzi jest podejrzany o dostarczanie małych łodzi do grup przemytników migrantów przez kanał La Manche.\n*   BBC nagrała spotkanie, w którym przedstawiono niemieckiego mężczyznę, który jest podejrzany o zaangażowanie w tę działalność, a także ujawniono dowody na jego współpracę.\n*   Mjanma odmawia pełnego przestrzegania części orzeczenia Międzynarodowego Trybunału Sprawiedliwości dotyczącego zbrodni genocyjne.\n*   Kobiety na śmierci w Iranie składają desperackie apele o pomoc po tłumieniu protestów, co budzi międzynarodową oburzenie.\n*   W pobliżu Ibizy zatopiony został niemiecki tankowiec przewożący do 7 000 ton paliwa, w wyniku czego zginęło jedna osoba.\n\n**Okazja dla MFO folie, wezwanie do działania:**\n\n**W przypadku zatopionego tankowca i ryzyka dla życia ludzi na morzu, MFO mogłoby wykorzystać swoje folie ratunkowe do zorganizowania akcji humanitarnych, oferując pomoc i zabezpieczając osoby potrzebujące.**  **Wezwanie do działania: „Dołącz do MFO w pomocy ofiarom tego tragicznego wypadku!  Wspólnie możemy zapewnić bezpieczeństwo i pomoc potrzebującym.”**\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-27 13:18:33",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: 0.9°C (odczuwalna: -3.6°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4673 PLN', 'USD': '4.0754 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Zelensky criticises 'strange' Trump-Putin friendship in BBC interview\n• Hundreds of thousands still without power after storms hit US on Thanksgiving\n• Leaders clash in final Spain election debate as housing dominates run-in\n• Italy's former police chief rejected mafia inquiry allegations before death\n• Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   **Zelenski krytykuje przyjaźń Trumpa i Putina** w wywiadzie dla BBC, nazywając ją \"dziwną\" i wskazując na jej potencjalne negatywne konsekwencje.\n*   W Stanach Zjednoczonych, silne sztormy po Święto Dziękczynienia nadal powodują braki w dostawie prądu dla setek tysięcy mieszkańców.\n*   W Hiszpanii, liderzy partii politycznych stoczą zacięty finałowy pojedynek wyborczy, a kwestia dostępności mieszkań jest głównym punktem sporu.\n*   Włoski były szef policji został ostatecznie uniewinniony zarzutów dotyczących odrzucenia śledztwa dotyczącego mafii tuż przed śmiercią.\n\n**Okazja dla MFO Folie:**\n\n**Wezwanie do działania:** MFO Folie może zaoferować **bezpieczne i trwałe rozwiązania do zabezpieczenia i ochrony mienia w regionach zagrożonych ekstremalnymi zjawiskami pogodowymi, takimi jak sztormy (jak w USA).**  Można to przedstawić jako **inwestycję w bezpieczeństwo i odporność na klęski żywiołowe**, podkreślając, że folie MFO Folie zapewniają skuteczną ochronę przed deszczem, wiatrem i śniegiem, minimalizując straty i zapewniając spokój ducha. Można to promować, np. poprzez kampanię w mediach społecznościowych z przykładami zastosowań w regionach dotkniętych klęskami żywiołowymi.\n"
+      }
+    }
   }
 ]
