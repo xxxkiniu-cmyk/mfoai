@@ -1753,5 +1753,27 @@
         "data": "📰 Wiadomości świat:\n• Zelensky criticises 'strange' Trump-Putin friendship in BBC interview\n• Hundreds of thousands still without power after storms hit US on Thanksgiving\n• Leaders clash in final Spain election debate as housing dominates run-in\n• Italy's former police chief rejected mafia inquiry allegations before death\n• Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   **Zelenski krytykuje przyjaźń Trumpa i Putina** w wywiadzie dla BBC, nazywając ją \"dziwną\" i wskazując na jej potencjalne negatywne konsekwencje.\n*   W Stanach Zjednoczonych, silne sztormy po Święto Dziękczynienia nadal powodują braki w dostawie prądu dla setek tysięcy mieszkańców.\n*   W Hiszpanii, liderzy partii politycznych stoczą zacięty finałowy pojedynek wyborczy, a kwestia dostępności mieszkań jest głównym punktem sporu.\n*   Włoski były szef policji został ostatecznie uniewinniony zarzutów dotyczących odrzucenia śledztwa dotyczącego mafii tuż przed śmiercią.\n\n**Okazja dla MFO Folie:**\n\n**Wezwanie do działania:** MFO Folie może zaoferować **bezpieczne i trwałe rozwiązania do zabezpieczenia i ochrony mienia w regionach zagrożonych ekstremalnymi zjawiskami pogodowymi, takimi jak sztormy (jak w USA).**  Można to przedstawić jako **inwestycję w bezpieczeństwo i odporność na klęski żywiołowe**, podkreślając, że folie MFO Folie zapewniają skuteczną ochronę przed deszczem, wiatrem i śniegiem, minimalizując straty i zapewniając spokój ducha. Można to promować, np. poprzez kampanię w mediach społecznościowych z przykładami zastosowań w regionach dotkniętych klęskami żywiołowymi.\n"
       }
     }
+  },
+  {
+    "timestamp": "2026-11-28 12:33:40",
+    "agents": {
+      "motivator": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'model': 'fallback-quote-engine', 'fallback_used': True, 'latency': '0.01s', 'response': 'Każdy dzień to nowa szansa na zbudowanie czegoś wielkiego.'}",
+        "fallback_used": true
+      },
+      "weather": {
+        "status": "SUCCESS",
+        "data": "Temp: -0.4°C (odczuwalna: -5.1°C) | Opady: 0.0 mm"
+      },
+      "finance": {
+        "status": "SUCCESS",
+        "data": "{'ok': True, 'EUR': '4.4673 PLN', 'USD': '4.0754 PLN'}"
+      },
+      "news": {
+        "status": "SUCCESS",
+        "data": "📰 Wiadomości świat:\n• Argentina's bid to stop Falkland Islands oil drilling rejected\n• Two staff killed in Israeli strike on Gaza medical clinic, MSF says\n• Afghanistan explosion kills 10 students and injures more than 100, official says\n• Spanish PM and rivals rally supporters in final pitch for votes\n• OpenAI counter-sues Apple over alleged theft of trade secrets\n\n🤖 Podsumowanie AI:\n\n\nOto podsumowanie trendów z nagłówków BBC w 4 zdaniach:\n\n*   Argentyna przegrała wniosek o zatrzymanie eksploatacji ropy naftowej na Wyspach Falklandzkich, co pogłębia napięcia w regionie.\n*   W Gazie doszło do izraelskiego ataku na klinikę medyczną MSF, w wyniku którego zginęło dwóch pracowników, a wielu zostało rannych.\n*   W Afganistanie wybuch bomby zabił 10 studentów, a ponad 100 zostało rannych, według oficjalnych źródeł.\n*   W Hiszpanii premier i jego konkurenci zintensyfikowali kampanię wyborczą, starając się przekonać wyborców do głosowania na ich listy.\n\n**Okazja dla MFO folie:**\n\n**Wezwanie do działania:** MFO folie może uruchomić kampanię informacyjną podnoszącą świadomość o konsekwencjach konfliktów w regionach takich jak Gaza i Afganistan, podkreślając potrzebę pomocy humanitarnej i wsparcia dla ofiar. Mogą oferować transparentne i trwałe rozwiązania dla budowy infrastruktury, wykorzystując folię jako materiał budowlany, co przyczyni się do odbudowy i stabilizacji tych krajów.\n"
+      }
+    }
   }
 ]
